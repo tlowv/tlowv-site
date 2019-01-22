@@ -1,20 +1,17 @@
 <template>
-  <v-app>
-    <app-navigation></app-navigation>
-
-    <v-content transition="slide-x-transition">
-      <router-view></router-view>
-    </v-content>
-  </v-app>
+  <span>
+    <home-hero></home-hero>
+  </span>
 </template>
 
 <script>
-import AppNavigation from '@/components/AppNavigation';
+import HomeHero from '@/components/HomeHero';
 
 export default {
-    name: 'App',
+    name: 'home',
     components: {
-        AppNavigation
+      HomeHero
     }
+    
 };
 </script>
