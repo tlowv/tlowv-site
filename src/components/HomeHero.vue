@@ -5,7 +5,7 @@
             <div class="display-4 font-weight-black white--text text-xs-center mb-3">LAW OFFICE</div>
             <div class="display-1 font-weight-bold white--text text-xs-center">Exceptional service at a reasonable cost.</div>
             <v-btn fab class="mt-5 brown darken-4">
-            <v-icon large color="white">'expand_more'</v-icon>
+            <v-icon large color="white">expand_more</v-icon>
             </v-btn>
         </v-layout>
     </v-container>
