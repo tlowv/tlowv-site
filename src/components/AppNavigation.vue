@@ -35,7 +35,7 @@ export default {
             items: [
                 { title: 'Meet Our Firm' },
                 { title: 'Practice Areas' },
-                { title: 'Join' } 
+                { title: 'Join' }
             ]
         };
     }

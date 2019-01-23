@@ -14,10 +14,9 @@ import HomeAttorneys from '@/components/HomeAttorneys';
 export default {
     name: 'home',
     components: {
-      HomeHero,
-      HomeDetails,
-      HomeAttorneys
+        HomeHero,
+        HomeDetails,
+        HomeAttorneys
     }
-
 };
 </script>
