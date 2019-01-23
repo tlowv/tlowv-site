@@ -16,11 +16,13 @@
         <v-toolbar app color="blue-grey darken-2" dark>
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
-            <v-toolbar-title>{{appTitle}}</v-toolbar-title>
-            <v-btn flat class="hidden-sm-and-down">Meet Our Firm</v-btn>
-            <v-btn flat class="hidden-sm-and-down">Practice Areas</v-btn>
+            <router-link to="/">
+                <v-toolbar-title>{{appTitle}}</v-toolbar-title>
+            </router-link>
+            <v-btn flat class="hidden-sm-and-down" to="/attorneys">Meet Our Firm</v-btn>
+            <v-btn flat class="hidden-sm-and-down" to="/practice">Practice Areas</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
-            <v-btn color="red darken-1" class="hidden-sm-and-down">Contact Us</v-btn>
+            <v-btn color="red darken-2" class="hidden-sm-and-down" to="/contact">Contact Us</v-btn>
         </v-toolbar>
     </span>
 </template>
@@ -35,7 +37,7 @@ export default {
             items: [
                 { title: 'Meet Our Firm' },
                 { title: 'Practice Areas' },
-                { title: 'Join' }
+                { title: 'Contact' }
             ]
         };
     }
@@ -43,4 +45,9 @@ export default {
 </script>
 
 <style scoped>
+a {
+    color: white;
+    text-decoration: none;
+}
+
 </style>
