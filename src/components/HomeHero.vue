@@ -5,7 +5,7 @@
             <div class="display-4 font-weight-black white--text text-xs-center mb-3">LAW OFFICE</div>
             <div class="display-1 font-weight-bold white--text text-xs-center">Exceptional service at a reasonable cost.</div>
             <v-btn fab class="mt-5 blue-grey darken-2">
-            <v-icon large color="white"></v-icon>
+            <v-icon large color="white">mdi-chevron-down</v-icon>
             </v-btn>
         </v-layout>
     </v-container>

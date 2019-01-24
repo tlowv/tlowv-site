@@ -13,7 +13,7 @@
             </v-list>
         </v-navigation-drawer>
 
-        <v-toolbar app color="blue-grey darken-2" dark>
+        <v-toolbar app color="blue-grey darken-2" dark height="50px">
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <router-link to="/">
@@ -49,5 +49,4 @@ a {
     color: white;
     text-decoration: none;
 }
-
 </style>
