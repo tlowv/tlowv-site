@@ -5,7 +5,9 @@
                 <template v-for="(item, index) in items">
                     <v-list-tile :key="index">
                         <v-list-tile-content>
-                            {{item.title}}
+                            <router-link :to="item.route">
+                                {{item.title}}
+                            </router-link>
                         </v-list-tile-content>
                     </v-list-tile>
                     <v-divider :key="`divider-${index}`"></v-divider>
@@ -19,10 +21,10 @@
             <router-link to="/">
                 <v-toolbar-title>{{appTitle}}</v-toolbar-title>
             </router-link>
-            <v-btn flat class="hidden-sm-and-down" to="/attorneys">Meet Our Firm</v-btn>
-            <v-btn flat class="hidden-sm-and-down" to="/practice">Practice Areas</v-btn>
+            <v-btn flat round class="hidden-sm-and-down" to="/attorneys">Our Attorneys</v-btn>
+            <v-btn flat round class="hidden-sm-and-down" to="/practice">Practice Areas</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
-            <v-btn color="red darken-2" class="hidden-sm-and-down" to="/contact">Contact Us</v-btn>
+            <v-btn round color="red darken-2" class="hidden-sm-and-down" to="/contact">Contact Us</v-btn>
         </v-toolbar>
     </span>
 </template>
@@ -35,9 +37,18 @@ export default {
             appTitle: 'TLO',
             drawer: false,
             items: [
-                { title: 'Meet Our Firm' },
-                { title: 'Practice Areas' },
-                { title: 'Contact' }
+                {
+                    title: 'Our Attorneys',
+                    route: '/attorneys'
+                },
+                {
+                    title: 'Practice Areas',
+                    route: '/practice'
+                },
+                {
+                    title: 'Contact',
+                    route: '/contact'
+                }
             ]
         };
     }

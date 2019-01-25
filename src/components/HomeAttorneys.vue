@@ -7,7 +7,7 @@
         </v-layout>
         <v-layout row wrap>
             <v-flex xs12 sm12 md6 xl3>
-                <v-card>
+                <v-card elevation=10>
                     <v-img src="https://i.imgur.com/xxUPAV0.jpg" height="500px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
@@ -30,7 +30,7 @@
                 </v-card>
             </v-flex>
             <v-flex xs12 sm12 md6 xl3>
-                <v-card>
+                <v-card elevation=10>
                     <v-img src="https://i.imgur.com/nMHVPGr.jpg" height="500px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
@@ -53,7 +53,7 @@
                 </v-card>
             </v-flex>
             <v-flex xs12 sm12 md6 xl3>
-                <v-card>
+                <v-card elevation=10>
                     <v-img src="https://i.imgur.com/FcRxE4B.jpg" height="500px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
@@ -76,7 +76,7 @@
                 </v-card>
             </v-flex>
             <v-flex xs12 sm12 md6 xl3>
-                <v-card>
+                <v-card elevation=10>
                     <v-img src="https://i.imgur.com/ybahMCg.jpg" height="500px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
@@ -104,7 +104,7 @@
 
 <script>
 export default {
-    name: 'HomePlans'
+    name: 'HomeAttorneys'
 };
 </script>
 

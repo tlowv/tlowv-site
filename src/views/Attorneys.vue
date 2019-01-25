@@ -1,14 +1,17 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Meet Our Firm</h1>
-        </v-layout>
-    </v-container>
+    <span>
+        <attorneys-header></attorneys-header>
+    </span>
 </template>
 
 <script>
+import AttorneysHeader from '@/components/AttorneysHeader';
+
 export default {
-    name: 'Attorneys'
+    name: 'attorneys',
+    components: {
+        AttorneysHeader
+    }
 };
 </script>
 
