@@ -19,7 +19,9 @@
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <router-link to="/">
-                <v-toolbar-title>{{appTitle}}</v-toolbar-title>
+                <v-toolbar-title>
+                    <img class="brand-logo" src="https://i.imgur.com/vdgnQ4f.png" alt="tlo brand">
+                </v-toolbar-title>
             </router-link>
             <v-btn flat round class="hidden-sm-and-down" to="/attorneys">Our Attorneys</v-btn>
             <v-btn flat round class="hidden-sm-and-down" to="/practice">Practice Areas</v-btn>
@@ -59,5 +61,11 @@ export default {
 a {
     color: white;
     text-decoration: none;
+}
+
+.brand-logo {
+    height: 40px;
+    width: 80px;
+    margin-top: 5px;
 }
 </style>

@@ -1,9 +1,10 @@
 <template>
     <v-container fluid fill-height class="home-hero" style="max-height: 100vh;">
-        <v-layout justify-center align-center column pa-5>
-            <div class="display-4 font-weight-light white--text text-xs-center">TAYLOR</div>
-            <div class="display-4 font-weight-light white--text text-xs-center mb-3">LAW OFFICE</div>
-            <div class="display-1 font-weight-light white--text text-xs-center">Exceptional service at a reasonable cost.</div>
+        <v-layout justify-center align-center column pa-2>
+            
+            <img src="https://i.imgur.com/KWNwM9l.png" alt="taylor law office" width="100%">
+            <h2 class="display-1 hidden-sm-and-up white--text">Exceptional service at a reduced cost</h2>
+            <h2 class="display-3 hidden-xs-only white--text">Exceptional service at a reduced cost</h2>
             <v-btn large round class="mt-5 blue-grey darken-1 white--text" @click="$vuetify.goTo('#below-fold')">
                 <v-icon color="white">mdi-chevron-down</v-icon>
                 Learn More
@@ -26,4 +27,6 @@ export default {
     width: 100%;
     height: 100%;
 }
+
+
 </style>
