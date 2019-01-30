@@ -1,14 +1,20 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Practice Areas</h1>
-        </v-layout>
-    </v-container>
+    <span>
+        <practice-header></practice-header>
+        <practice-details></practice-details>
+    </span>
 </template>
 
 <script>
+import PracticeHeader from '@/components/PracticeHeader';
+import PracticeDetails from '@/components/PracticeDetails';
+
 export default {
-    name: 'Practice'
+    name: 'practice',
+    components: {
+        PracticeHeader,
+        PracticeDetails
+    }
 };
 </script>
 

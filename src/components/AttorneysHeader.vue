@@ -1,9 +1,10 @@
 <template>
-    <v-container fluid fill-height class="attorneys-header" style="max-height: 50vh;">
+    <v-container fluid fill-height class="attorneys-header" style="max-height: 60vh;">
         <v-layout justify-center align-center column pa-5>
-            <div class="display-3 font-weight-light text-xs-center mb-3">Meet Our Attorneys</div>
+            <div class="display-3 white--text font-weight-black text-xs-center mb-3">Meet Our Attorneys</div>
             <v-divider></v-divider>
-            <div class="display-1 font-weight-light text-xs-center">See why we're best suited to defend you.</div>
+            <h2 class="hidden-sm-and-up white--text text-xs-center">See why we're best suited to defend you</h2>
+            <h2 class="display-3 font-weight-light white--text hidden-xs-only text-xs-center">See why we're best suited to defend you</h2>
         </v-layout>
 
     </v-container>
@@ -17,11 +18,14 @@ export default {
 
 <style scoped>
 .attorneys-header {
-    background-color: lightgrey;
+    background: url('https://i.imgur.com/OB7VCp1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 hr {
-    color: black;
+    color: white;
     width: 90%;
     margin-bottom: 15px;
     border-style: solid;

@@ -1,5 +1,15 @@
 <template>
     <v-container grid-list-lg>
+        <v-layout row nowrap>
+            <v-flex>
+                <div class="headline mt-3">Lorem ipsum</div>
+                <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Cras pulvinar risus quis mauris interdum, in euismod nibh 
+                        pretium. Etiam pulvinar tincidunt dapibus. Quisque 
+                        sollicitudin, mauris a consequat consectetur, turpis nisl 
+                        sollicitudin enim, id consectetur neque neque nec metus. </p>
+            </v-flex>
+        </v-layout>
         <v-layout row wrap>
             <v-flex xs12 sm12 md6 xl3>
                 <v-card elevation=10>
@@ -14,13 +24,10 @@
                     </v-img>
                     <v-card-title primary-title>
                         <div>
-                            <h3 class="headline mb-0">Trevor K. Taylor</h3>
-                            <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nullam mauris felis, varius rutrum massa a, dignissim ornare dui. 
-                                Cras eget velit eu dui tristique lobortis sit amet vel tellus.
-                            </div>
-                        </div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nullam mauris felis, varius rutrum massa a, dignissim ornare dui. 
+                            Cras eget velit eu dui tristique lobortis sit amet vel tellus.
+                        </div>                        
                     </v-card-title>
                     <v-card-actions>
                         <v-spacer></v-spacer>
@@ -60,12 +67,9 @@
                     </v-img>
                     <v-card-title primary-title>
                         <div>
-                            <h3 class="headline mb-0">Paul W. Gwaltney, Jr.</h3>
-                            <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nullam mauris felis, varius rutrum massa a, dignissim ornare 
-                                dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
-                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nullam mauris felis, varius rutrum massa a, dignissim ornare 
+                            dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
                         </div>
                     </v-card-title>
                     <v-card-actions>
@@ -105,12 +109,9 @@
                     </v-img>
                     <v-card-title primary-title>
                         <div>
-                            <h3 class="headline mb-0">Christopher B. Denson</h3>
-                            <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nullam mauris felis, varius rutrum massa a, dignissim ornare 
-                                dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
-                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nullam mauris felis, varius rutrum massa a, dignissim ornare 
+                            dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
                         </div>
                     </v-card-title>
                     <v-card-actions>
@@ -151,12 +152,9 @@
                     </v-img>
                     <v-card-title primary-title>
                         <div>
-                            <h3 class="headline mb-0">Tiffany A. Cropp</h3>
-                            <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nullam mauris felis, varius rutrum massa a, dignissim ornare 
-                                dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
-                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nullam mauris felis, varius rutrum massa a, dignissim ornare 
+                            dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
                         </div>
                     </v-card-title>
                     <v-card-actions>
@@ -182,6 +180,19 @@
                         </v-dialog>
                     </v-card-actions>
                 </v-card>
+            </v-flex>
+            <v-flex>
+                <div class="headline mt-3">Lorem ipsum</div>
+                <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Cras pulvinar risus quis mauris interdum, in euismod nibh 
+                        pretium. Etiam pulvinar tincidunt dapibus. Quisque 
+                        sollicitudin, mauris a consequat consectetur, turpis nisl 
+                        sollicitudin enim, id consectetur neque neque nec metus. </p>
+                <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Cras pulvinar risus quis mauris interdum, in euismod nibh 
+                        pretium. Etiam pulvinar tincidunt dapibus. Quisque 
+                        sollicitudin, mauris a consequat consectetur, turpis nisl 
+                        sollicitudin enim, id consectetur neque neque nec metus. </p>
             </v-flex>
         </v-layout>
     </v-container>
