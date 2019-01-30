@@ -18,6 +18,7 @@
         <v-toolbar app color="blue-grey darken-2" dark height="50px">
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
+            <div class="hidden-md-and-up ml-3 red--text font-weight-black">Call: 304-225-8529</div>
             <router-link to="/">
                 <v-toolbar-title>
                     <img class="brand-logo" src="https://i.imgur.com/vdgnQ4f.png" alt="tlo brand">
@@ -26,6 +27,8 @@
             <v-btn flat round class="hidden-sm-and-down" to="/attorneys">Our Attorneys</v-btn>
             <v-btn flat round class="hidden-sm-and-down" to="/practice">Practice Areas</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
+            <div class="hidden-sm-and-down">330 Scott Ave, Suite 3 | Morgantown, WV 26508</div>
+            <div class="hidden-sm-and-down ml-3 red--text font-weight-black">304-225-8529</div>
             <v-btn round color="red darken-2" class="hidden-sm-and-down" to="/contact">Contact Us</v-btn>
         </v-toolbar>
     </span>

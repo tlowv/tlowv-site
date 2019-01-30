@@ -10,10 +10,11 @@
                         sollicitudin enim, id consectetur neque neque nec metus. </p>
             </v-flex>
         </v-layout>
-        <v-layout row wrap>
-            <v-flex xs12 sm12 md6 xl4>
+        <v-layout row wrap justify-center>
+
+            <v-flex xs12 style="max-width: 1200px;">
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/Aq20zBN.jpg" height="500px">
+                    <v-img src="https://i.imgur.com/Aq20zBN.jpg" height="400px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
@@ -39,9 +40,9 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex xs12 sm12 md6 xl4>
+            <v-flex xs12 md6 style="max-width: 600px;">
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/UYS6D9L.jpg" height="500px">
+                    <v-img src="https://i.imgur.com/UYS6D9L.jpg" height="400px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
@@ -69,9 +70,9 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex xs12 sm12 md6 xl4>
+            <v-flex xs12 md6 style="max-width: 600px;">
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/E7GQKLr.jpg" height="500px">
+                    <v-img src="https://i.imgur.com/E7GQKLr.jpg" height="400px">
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
