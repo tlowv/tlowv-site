@@ -4,10 +4,10 @@
             <v-flex>
                 <div class="headline mt-3">Lorem ipsum</div>
                 <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Cras pulvinar risus quis mauris interdum, in euismod nibh 
-                        pretium. Etiam pulvinar tincidunt dapibus. Quisque 
-                        sollicitudin, mauris a consequat consectetur, turpis nisl 
-                        sollicitudin enim, id consectetur neque neque nec metus. </p>
+                    Cras pulvinar risus quis mauris interdum, in euismod nibh 
+                    pretium. Etiam pulvinar tincidunt dapibus. Quisque 
+                    sollicitudin, mauris a consequat consectetur, turpis nisl 
+                    sollicitudin enim, id consectetur neque neque nec metus. </p>
             </v-flex>
         </v-layout>
         <v-layout row wrap>

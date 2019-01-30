@@ -24,8 +24,8 @@
                     <img class="brand-logo" src="https://i.imgur.com/vdgnQ4f.png" alt="tlo brand">
                 </v-toolbar-title>
             </router-link>
-            <v-btn flat round class="hidden-sm-and-down" to="/attorneys">Our Attorneys</v-btn>
-            <v-btn flat round class="hidden-sm-and-down" to="/practice">Practice Areas</v-btn>
+            <v-btn flat round class="hidden-sm-and-down" to="/attorneys">Attorneys</v-btn>
+            <v-btn flat round class="hidden-sm-and-down" to="/practice">Practice</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <div class="hidden-sm-and-down">330 Scott Ave, Suite 3 | Morgantown, WV 26508</div>
             <div class="hidden-sm-and-down ml-3 red--text font-weight-black">304-225-8529</div>

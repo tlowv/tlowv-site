@@ -10,7 +10,7 @@ import AttorneysHeader from '@/components/AttorneysHeader';
 import AttorneysDetails from '@/components/AttorneysDetails';
 
 export default {
-    name: 'attorneys',
+    name: 'Attorneys',
     components: {
         AttorneysHeader,
         AttorneysDetails

@@ -20,15 +20,35 @@
                     {{ link.title }}
                 </router-link>
             </v-btn>
+            <v-flex blue-grey
+                darken-1
+                pt-3
+                text-xs-center
+                white--text
+                xs12>Serving clients throughout
+                    West Virginia, including Morgantown, Fairmont, Clarksburg, Kingwood,
+                    Buckhannon, Weston, Beckley, Bluefield, Bridgeport, Charleston,
+                    Cross Lanes, Dunbar, Huntington, Martinsburg, Moundsville, Parkersburg,
+                    South Charleston, St. Albans, Teays Valley, Vienna, Weirton, Wheeling,
+                    Princeton, Nitro, Oak Hill, Keyser, Romney, Kingwood, Elkins, Ripley,
+                    Charles Town, Berkeley Springs, Logan, Pineville, Madison and Welch.
+            </v-flex>
             <v-flex
                 blue-grey
                 darken-1
-                py-3
+                pt-3
                 text-xs-center
                 white--text
                 xs12
             >
                 &copy;2019 - <strong>Taylor Law Office</strong>
+            </v-flex>
+            <v-flex blue-grey
+                darken-1
+                pb-3
+                text-xs-center
+                white--text
+                xs12>Created by Jason Parsons using Vue.js and Vuetify
             </v-flex>
         </v-layout>
     </v-footer>

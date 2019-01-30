@@ -1,14 +1,20 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Contact Us</h1>
-        </v-layout>
-    </v-container>
+    <span>
+        <contact-header></contact-header>
+        <contact-details></contact-details>
+    </span>
 </template>
 
 <script>
+import ContactHeader from '@/components/ContactHeader';
+import ContactDetails from '@/components/ContactDetails';
+
 export default {
-    name: 'Contact'
+    name: 'Contact',
+    components: {
+        ContactHeader,
+        ContactDetails
+    }
 };
 </script>
 
