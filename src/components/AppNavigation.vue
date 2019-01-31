@@ -20,7 +20,7 @@
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <div class="hidden-md-and-up ml-3 red--text font-weight-black">Call: 304-225-8529</div>
             <router-link to="/">
-                <v-toolbar-title>
+                <v-toolbar-title @click="$vuetify.goTo('#top')">
                     <img class="brand-logo" src="https://i.imgur.com/vdgnQ4f.png" alt="tlo brand">
                 </v-toolbar-title>
             </router-link>
