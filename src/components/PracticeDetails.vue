@@ -12,7 +12,7 @@
         </v-layout>
         <v-layout row wrap justify-center>
 
-            <v-flex xs12 style="max-width: 1200px;">
+            <v-flex xs12>
                 <v-card elevation=10>
                     <v-img src="https://i.imgur.com/Aq20zBN.jpg" height="400px">
                         <v-container fill-height fluid>
@@ -40,7 +40,7 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md6 style="max-width: 600px;">
+            <v-flex xs12 md6>
                 <v-card elevation=10>
                     <v-img src="https://i.imgur.com/UYS6D9L.jpg" height="400px">
                         <v-container fill-height fluid>
@@ -70,7 +70,7 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md6 style="max-width: 600px;">
+            <v-flex xs12 md6>
                 <v-card elevation=10>
                     <v-img src="https://i.imgur.com/E7GQKLr.jpg" height="400px">
                         <v-container fill-height fluid>
