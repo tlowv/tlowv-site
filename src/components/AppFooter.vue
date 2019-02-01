@@ -23,6 +23,7 @@
             <v-flex blue-grey
                 darken-1
                 pt-3
+                px-3
                 text-xs-center
                 white--text
                 xs12>Serving clients throughout

@@ -36,6 +36,6 @@ export default {
 <style scoped>
 .form-container {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1100px;
 }
 </style>

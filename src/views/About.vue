@@ -1,14 +1,19 @@
 <template>
-  <v-container fluid>
-    <v-layout>
-      <h1>About Page</h1>
-    </v-layout>
-  </v-container>
+  <span>
+    <about-header></about-header>
+    <about-details></about-details>
+  </span>
 </template>
 
 <script>
+import AboutHeader from '@/components/AboutHeader';
+import AboutDetails from '@/components/AboutDetails';
 export default {
-    name: 'About'
+    name: 'About',
+    components: {
+        AboutHeader,
+        AboutDetails
+    }
 };
 </script>
 

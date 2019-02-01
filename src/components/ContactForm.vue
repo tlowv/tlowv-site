@@ -8,7 +8,12 @@
             </div>
         </v-card-title>
         <div class="pa-3">
-            <v-form action="https://formspree.io/jparsons@taylorlawofficewv.com" method="POST" ref="form" v-model="valid" lazy-validation>
+            <v-form 
+                action="https://formspree.io/jparsons@taylorlawofficewv.com" 
+                method="POST" 
+                ref="form" 
+                v-model="valid" 
+            >
                 <v-text-field
                     v-model="name"
                     :rules="nameRules"
@@ -23,7 +28,7 @@
                     required
                     id="emailInput"
                 ></v-text-field>
-                <div class="ma-0 pa-0 caption grey--text ">We'll never share your email with anyone else.</div>
+                <div class="caption grey--text ">We'll never share your email with anyone else.</div>
                 <v-textarea 
                     v-model="message" 
                     :rules="messageRules"
@@ -34,8 +39,24 @@
                 </v-textarea>
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn flat round class="white--text red lighten-2" @click="reset">Reset</v-btn>
-                    <v-btn flat round class="white--text green lighten-2" @click="submit" type="submit" value="Send">Submit</v-btn>
+                    <v-btn 
+                        flat 
+                        round 
+                        class="white--text red lighten-1" 
+                        @click="reset"
+                    >Clear<v-icon class="ml-2" color="white">mdi-cancel</v-icon>
+                    </v-btn>
+                    <v-btn 
+                        flat 
+                        round 
+                        :class="{ grey: !valid, green: valid}"
+                        class="white--text lighten-1" 
+                        @click="submit" 
+                        type="submit" 
+                        value="Send"
+                        :disabled="!valid"
+                    >Submit<v-icon class="ml-2" color="white">mdi-send</v-icon>
+                    </v-btn>
                 </v-card-actions>
             </v-form>
         </div>
@@ -52,27 +73,23 @@ export default {
         email: '',
         emailRules: [
             v => !!v || 'E-mail is required',
-            v => /.+@.+/.test(v) || 'Must be a valid e-mail'
+            v =>
+                /[a-z0-9\._%+!$&*=^|~#%'`?{}/\-]+@([a-z0-9\-]+\.){1,}([a-z]{2,16})/.test(
+                    v
+                ) || 'Must be a valid e-mail'
         ],
         message: '',
         messageRules: [v => !!v || 'Message is required']
     }),
 
     methods: {
-        validate() {
-            if (this.$refs.form.validate()) {
-                this.snackbar = true;
-            }
-        },
-        reset () {
-            this.$refs.form.reset()
-            this.$refs.form.resetValidation()
+        reset() {
+            this.$refs.form.reset();
+            this.$refs.form.resetValidation();
         },
         submit() {
-            if (this.validate()) {
-                this.$v.$touch;
-            }
-        },
+            this.$refs.form.validate();
+        }
     }
 };
 </script>
