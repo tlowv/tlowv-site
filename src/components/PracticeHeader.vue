@@ -23,4 +23,11 @@ export default {
     width: 100%;
     height: 100%;
 }
+
+hr {
+    color: white;
+    width: 90%;
+    margin-bottom: 15px;
+    border-style: solid;
+}
 </style>
