@@ -31,7 +31,7 @@ export default {
 }
 
 .tlo-hero {
-    max-width: 900px;
+    max-width: 1100px;
 }
 
 #top {

@@ -4,38 +4,33 @@
             <v-flex class="mb-5" id="below-fold"></v-flex>
             <v-flex class="display-2 text-xs-center my-5">Big Title Goes Here</v-flex>
             <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
+                <div class="headline mt-3">Experience</div>
                 <p class="subheading mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras pulvinar risus quis mauris interdum, in euismod nibh 
-                    pretium. Etiam pulvinar tincidunt dapibus. Quisque 
-                    sollicitudin, mauris a consequat consectetur, turpis nisl 
-                    sollicitudin enim, id consectetur neque neque nec metus. 
-                    Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt 
-                    et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam 
-                    accumsan ut sem eget efficitur. Vivamus in tortor gravida 
-                    eros laoreet condimentum nec vel dui. Nullam quam massa, 
-                    ultrices eget tincidunt a, pulvinar ac libero.
+                    The primary focus of the practice at Taylor Law Office is insurance
+                    defense litigation. Collectively, our attorneys have handled many
+                    hundreds of cases for various insurers in all State and Federal
+                    jurisdictions throughout West Virginia. While these cases range in
+                    size and complexity, they are all approached with the same intense
+                    focus for providing a superior product. The relative small size of
+                    Taylor Law Office provides inherent advantages to insurers concerned
+                    with who and how cases are being handled.
                 </p>
             </v-flex>
             <v-flex class="blue-background">
-                <div class="headline mt-3">Lorem ipsum</div>
+                <div class="headline mt-3">Value</div>
                 <p class="subheading mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras pulvinar risus quis mauris interdum, in euismod nibh 
-                    pretium. Etiam pulvinar tincidunt dapibus. Quisque 
-                    sollicitudin, mauris a consequat consectetur, turpis nisl 
-                    sollicitudin enim, id consectetur neque neque nec metus. 
-                    Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt 
-                    et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam 
-                    accumsan ut sem eget efficitur. Vivamus in tortor gravida 
-                    eros laoreet condimentum nec vel dui. Nullam quam massa, 
-                    ultrices eget tincidunt a, pulvinar ac libero.
+                    The frustration of paying associates to learn how to practice insurance
+                    defense simply is not an issue at Taylor Law Office. Our attorneys have
+                    already traversed the gauntlet of legal obstacles presented by the
+                    West Virginia civil legal system. For well over a decade, the collective
+                    experience of attorneys at Taylor Law Office have forged the skill and
+                    knowledge necessary to provide an insurer with the quality legal
+                    representation required for its insureds.
                 </p>
                 
             </v-flex>
             <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
+                <div class="headline mt-3">Service</div>
                 <p class="subheading mt-3">
                     Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit 
                     varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et 

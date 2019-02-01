@@ -1,8 +1,8 @@
 <template>
     <v-container>
-        <v-layout row wrap align-center>
+        <v-layout row wrap align-center style="max-width: 1100px; margin: 0 auto;">
             
-            <v-flex xs12 sm6 mb-2>
+            <v-flex xs12 sm6 mb-2 class="contact-row">
                 <p class="subheading">Taylor Law Office is located on Scott Avenue in Morgantown.  Get in touch with us using the following contact information, or use the form below to send us an email.</p>
                 <div class="headline">Taylor Law Office</div>
                 <div class="subheading">330 Scott Avenue</div>
@@ -34,8 +34,4 @@ export default {
 </script>
 
 <style scoped>
-.form-container {
-    margin: 0 auto;
-    max-width: 1100px;
-}
 </style>
