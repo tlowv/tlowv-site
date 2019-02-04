@@ -20,7 +20,7 @@ export default {
     mounted: function() {
         const element = document.getElementById(this.mapName);
         const options = {
-            zoom: 15,
+            zoom: 14.75,
             center: new google.maps.LatLng(39.586, -79.963)
         };
 
@@ -42,10 +42,10 @@ export default {
 
 <style scoped>
 .google-map {
-    width: 90%;
-    height: 400px;
-    max-width: 600px;
-    margin: 0 auto;
     background: grey;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 90%;
 }
 </style>
