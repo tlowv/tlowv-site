@@ -2,44 +2,36 @@
     <v-container>
         <v-layout column>
             <v-flex class="mb-5" id="below-fold"></v-flex>
-            <v-flex class="display-2 text-xs-center my-5">Big Title Goes Here</v-flex>
+            <v-flex class="display-2 text-xs-center my-5">Taylor Law Office</v-flex>
             <v-flex>
-                <div class="headline mt-3">Experience</div>
+                <div class="headline mt-3">Quality</div>
                 <p class="subheading mt-3">
-                    The primary focus of the practice at Taylor Law Office is insurance
-                    defense litigation. Collectively, our attorneys have handled many
-                    hundreds of cases for various insurers in all State and Federal
-                    jurisdictions throughout West Virginia. While these cases range in
-                    size and complexity, they are all approached with the same intense
-                    focus for providing a superior product. The relative small size of
-                    Taylor Law Office provides inherent advantages to insurers concerned
-                    with who and how cases are being handled.
+                    Taylor Law Office is a Morgantown-based firm specializing in insurance 
+                    defense litigation. Whether it is minor matters, or complex litigation, 
+                    Taylor Law Office approaches all cases with the same goal - quality 
+                    representation for the client at a reasonable price.
                 </p>
             </v-flex>
             <v-flex class="blue-background">
                 <div class="headline mt-3">Value</div>
                 <p class="subheading mt-3">
-                    The frustration of paying associates to learn how to practice insurance
-                    defense simply is not an issue at Taylor Law Office. Our attorneys have
-                    already traversed the gauntlet of legal obstacles presented by the
-                    West Virginia civil legal system. For well over a decade, the collective
-                    experience of attorneys at Taylor Law Office have forged the skill and
-                    knowledge necessary to provide an insurer with the quality legal
-                    representation required for its insureds.
+                    At Taylor Law Office, we are dedicated to providing a superior level 
+                    of service to represent the multiple interests present in defending civil 
+                    litigation in West Virginia. In order to do this, we have developed the Taylor 
+                    Theorem that is based on three principles -- Exceptional Service, Reasonable Costs, 
+                    and Responsive Action. Abiding by these principles ensures that we provide personal 
+                    and dedicated service from experienced legal counsel that aggressively defends 
+                    West Virginia insureds, at a cost that is far lower than larger firms.
                 </p>
                 
             </v-flex>
             <v-flex>
                 <div class="headline mt-3">Service</div>
                 <p class="subheading mt-3">
-                    Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit 
-                    varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et 
-                    tincidunt condimentum. Etiam consequat mi leo, in suscipit odio scelerisque 
-                    molestie. Nam et purus consequat, iaculis augue vel, sagittis ligula. 
-                    Vestibulum aliquet vulputate erat. Phasellus id mauris mauris. Nunc a maximus 
-                    dolor. Curabitur ut vestibulum arcu. Curabitur non lacus justo. Cras varius a 
-                    magna in semper. Nulla eros ante, consectetur faucibus sapien eu, rhoncus 
-                    imperdiet dui. Sed viverra iaculis nunc, id pulvinar massa egestas vitae.
+                    From Wheeling to Charleston, Morgantown to Beckley, and everywhere in 
+                    between -- when it comes to providing legal services in West Virginia, 
+                    Taylor Law Office has the experience and skill necessary to successfully 
+                    navigate the civil litigation system for both insurers and insureds.
                 </p>
             </v-flex>
         </v-layout>

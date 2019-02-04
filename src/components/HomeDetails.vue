@@ -2,49 +2,38 @@
     <v-container>
         <v-layout column>
             <v-flex class="mb-5" id="below-fold"></v-flex>
-            <v-flex class="display-2 text-xs-center my-5">Big Title Goes Here</v-flex>
+            <v-flex class="display-2 text-xs-center my-5">Why Taylor Law Office is Right for You</v-flex>
             <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
+                <div class="headline mt-3">Exceptional Service</div>
                 <p class="subheading mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras pulvinar risus quis mauris interdum, in euismod nibh 
-                    pretium. Etiam pulvinar tincidunt dapibus. Quisque 
-                    sollicitudin, mauris a consequat consectetur, turpis nisl 
-                    sollicitudin enim, id consectetur neque neque nec metus. 
-                    Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt 
-                    et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam 
-                    accumsan ut sem eget efficitur. Vivamus in tortor gravida 
-                    eros laoreet condimentum nec vel dui. Nullam quam massa, 
-                    ultrices eget tincidunt a, pulvinar ac libero.
+                    Exceptional service at a reasonable rate with the client's interest always placed first. 
+                    Taylor Law Office is committed to this simple principle. In practice, this principle 
+                    is exhibited in numerous ways. First, we aggressively defend all cases by tirelessly 
+                    investigating and thoroughly developing all viable arguments in our client's favor. 
+                    Through discovery, whether written or depositions, our attorneys pursue all angles to 
+                    defend our clients. By approaching all cases in this manner, should the case go to trial, 
+                    our attorneys are prepared to make the absolute strongest arguments.
                 </p>
             </v-flex>
             <v-flex class="blue-background">
-                <div class="headline mt-3">Lorem ipsum</div>
+                <div class="headline mt-3">Reasonable Costs</div>
                 <p class="subheading mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras pulvinar risus quis mauris interdum, in euismod nibh 
-                    pretium. Etiam pulvinar tincidunt dapibus. Quisque 
-                    sollicitudin, mauris a consequat consectetur, turpis nisl 
-                    sollicitudin enim, id consectetur neque neque nec metus. 
-                    Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt 
-                    et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam 
-                    accumsan ut sem eget efficitur. Vivamus in tortor gravida 
-                    eros laoreet condimentum nec vel dui. Nullam quam massa, 
-                    ultrices eget tincidunt a, pulvinar ac libero.
-                </p>
-                
+                    In addition to quality service, Taylor Law Office is dedicated to providing such 
+                    representation at a reasonable price. Not only are Taylor Law Office's hourly rates 
+                    reduced as compared to other firms, but most of the costs and expenses associated with 
+                    legal representation are not forced upon the insurer. Among other things, this includes 
+                    costs for electronic legal research.
+                </p>     
             </v-flex>
             <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
+                <div class="headline mt-3">Responsive Action</div>
                 <p class="subheading mt-3">
-                    Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit 
-                    varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et 
-                    tincidunt condimentum. Etiam consequat mi leo, in suscipit odio scelerisque 
-                    molestie. Nam et purus consequat, iaculis augue vel, sagittis ligula. 
-                    Vestibulum aliquet vulputate erat. Phasellus id mauris mauris. Nunc a maximus 
-                    dolor. Curabitur ut vestibulum arcu. Curabitur non lacus justo. Cras varius a 
-                    magna in semper. Nulla eros ante, consectetur faucibus sapien eu, rhoncus 
-                    imperdiet dui. Sed viverra iaculis nunc, id pulvinar massa egestas vitae.
+                    Finally, it is the client that is placed at the forefront of all decisions at Taylor 
+                    Law Office. From the outset of all cases, our attorneys meet with all clients and 
+                    discuss the process involved with civil litigation. This most-basic step develops a 
+                    bond with the client that fosters trust and strengthens defenses. In fact, on multiple 
+                    occasions, insureds defended by Taylor Law Office attorneys have returned for other 
+                    legal needs when issues arise.
                 </p>
             </v-flex>
         </v-layout>

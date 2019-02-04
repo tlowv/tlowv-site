@@ -25,7 +25,7 @@ export default {
         };
 
         const map = new google.maps.Map(element, options);
-
+        
         this.markerCoordinates.forEach(coord => {
             const position = new google.maps.LatLng(
                 coord.latitude,

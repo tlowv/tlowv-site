@@ -3,8 +3,8 @@
         <v-layout justify-center align-center column pa-5>
             <div class="display-3 white--text font-weight-black text-xs-center mb-3">Practice Areas</div>
             <v-divider></v-divider>
-            <h2 class="hidden-sm-and-up white--text text-xs-center">Our collective experience spans many areas</h2>
-            <h2 class="display-3 font-weight-light white--text hidden-xs-only text-xs-center">Our collective experience spans many areas</h2>
+            <h2 class="hidden-sm-and-up white--text text-xs-center">Our Collective Experience Will Suit Your Needs</h2>
+            <h2 class="display-3 font-weight-light white--text hidden-xs-only text-xs-center">Our Collective Experience Will Suit Your Needs</h2>
         </v-layout>
 
     </v-container>
