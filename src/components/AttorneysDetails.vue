@@ -19,7 +19,7 @@
         <v-layout row wrap>
             <v-flex xs12 sm12 md6 xl3>
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/xxUPAV0.jpg" height="400px">
+                    <v-img src="https://i.imgur.com/xxUPAV0.jpg" aspect-ratio="1.5" contain>
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
@@ -63,7 +63,7 @@
             </v-flex>
             <v-flex xs12 sm12 md6 xl3>
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/nMHVPGr.jpg" height="400px">
+                    <v-img src="https://i.imgur.com/nMHVPGr.jpg" aspect-ratio="1.5" contain>
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
@@ -74,7 +74,7 @@
                     </v-img>
                     <v-card-title primary-title>
                         <div class="subheading">
-                            Paul focus his practice in areas of uninsured/underinsured motorists, 
+                            Paul focus his practice on uninsured or underinsured motorists, 
                             premises liability, serious injury and wrongful death, with bar 
                             admissions to West Virginia, U.S. District Courts for Southern and 
                             Northern districts.
@@ -106,7 +106,7 @@
             </v-flex>
             <v-flex xs12 sm12 md6 xl3>
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/FcRxE4B.jpg" height="400px">
+                    <v-img src="https://i.imgur.com/FcRxE4B.jpg" aspect-ratio="1.5" contain>
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
@@ -171,7 +171,7 @@
             </v-flex>
             <v-flex xs12 sm12 md6 xl3>
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/ybahMCg.jpg" height="400px">
+                    <v-img src="https://i.imgur.com/ybahMCg.jpg" aspect-ratio="1.5" contain>
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
