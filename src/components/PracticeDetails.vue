@@ -34,7 +34,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             Insurance defense in West Virginia is both complex and precarious. 
                             Moreover, the legal environment in West Virginia can present serious 
                             challenges to insurers operating in our state. For over a decade, 
@@ -47,7 +47,7 @@
                             case. We are regularly used to file for court approval of minor settlements, 
                             settlements in wrongful death actions, and for judicial disbursement of insurance proceeds.                            
                         </div>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             In addition to assisting with the smaller matters that frequently arise for insurers, 
                             Taylor Law Office handles all types of major litigation. We routinely litigate cases 
                             involving auto-accidents, claims of premises liability, and construction defect claims. 
@@ -55,7 +55,7 @@
                             in West Virginia. Our office has extensive experience with workplace accident cases 
                             involving West Virginia's statutory employer immunity provisions for "deliberate intent."
                         </div>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             This experience has forged strong relationships with Federal and State agencies, 
                             as well as with the finest experts. Additionally, we frequently handle first-party 
                             cases involving West Virginia's complex underinsured and uninsured motorist's laws. 
@@ -78,7 +78,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             In West Virginia, as is the case throughout the United States, 
                             employers are expected to provide an employee with a safe working 
                             environment. When that standard is not satisfied, employees 
@@ -87,13 +87,13 @@
                             system, there are instances when additional steps against the employer are 
                             justified.
                         </div>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             Taylor Law Office understands the complex nature of filing such a claim 
                             so as to pierce the statutory immunities in place to protect an employer 
                             who has deliberately disregarded specific workplace safety standards 
                             which causes injury to an employee.
                         </div>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             Taylor Law Office has vast experience with the various experts that are 
                             required for not only for proving liability and the deliberate intent 
                             of the employer, but also for developing all aspects of economic and 
@@ -114,7 +114,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             In unique situations, Taylor Law Office handles personal injury cases 
                             for individuals wrongfully injured in accidents. While Taylor Law Office 
                             typically handles cases for defendants, insurers, and corporate clients, 
@@ -123,14 +123,14 @@
                             attorneys aggressively move cases through all phases of litigation, and when 
                             necessary, trial.
                         </div>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             Taylor Law Office has represented injured parties in cases involving 
                             serious auto accidents, complex products liability questions, and dangerous 
                             acts of negligence and misconduct. Moreover, Taylor Law Office thoroughly 
                             understands insurance standards and legal requirements, and uses that knowledge 
                             and skill to represent seriously injured individuals.
                         </div>
-                        <div class="my-2">
+                        <div class="subheading my-2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </div>
                     </v-card-title>

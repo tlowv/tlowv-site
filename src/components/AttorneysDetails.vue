@@ -29,7 +29,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div>
+                        <div class="subheading">
                             Trevor's primary litigation focus is dedicated to Civil Defense in 
                             areas including, but not limited to coverage determinations; 
                             security, hotel, and airport/airplane liability; deliberate 
@@ -73,7 +73,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div>
+                        <div class="subheading">
                             Paul focus his practice in areas of uninsured/underinsured motorists, 
                             premises liability, serious injury and wrongful death, with bar 
                             admissions to West Virginia, U.S. District Courts for Southern and 
@@ -116,7 +116,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div>
+                        <div class="subheading">
                             Chris Denson concentrates his practice in the areas of general litigation, 
                             insurance coverage and extra-contractual defense, personal injury, wrongful 
                             death, products liability, property damage claims, and construction law. 
@@ -181,7 +181,7 @@
                         </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                        <div>
+                        <div class="subheading">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Nullam mauris felis, varius rutrum massa a, dignissim ornare 
                             dui. Cras eget velit eu dui tristique lobortis sit amet vel tellus.
