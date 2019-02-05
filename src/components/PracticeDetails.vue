@@ -28,7 +28,7 @@
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
-                                    <span class="headline white--text">Insurance Defense</span>
+                                    <span class="headline white--text">INSURANCE DEFENSE</span>
                                 </v-flex>
                             </v-layout>
                         </v-container>
@@ -72,7 +72,7 @@
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
-                                    <span class="headline white--text">Workplace Accidents</span>
+                                    <span class="headline white--text">WORKPLACE ACCIDENTS</span>
                                 </v-flex>
                             </v-layout>
                         </v-container>
@@ -108,7 +108,7 @@
                         <v-container fill-height fluid>
                             <v-layout fill-height>
                                 <v-flex xs12 align-end flexbox>
-                                    <span class="headline white--text">Personal Injury</span>
+                                    <span class="headline white--text">PERSONAL INJURY</span>
                                 </v-flex>
                             </v-layout>
                         </v-container>

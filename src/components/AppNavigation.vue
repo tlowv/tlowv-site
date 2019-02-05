@@ -15,7 +15,7 @@
             </v-list>
         </v-navigation-drawer>
 
-        <v-toolbar app color="blue-grey darken-2" dark height="50px">
+        <v-toolbar app flat color="transparent" dark height="50px">
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <div class="hidden-md-and-up ml-3 red--text font-weight-black">Call: 304-225-8529</div>
