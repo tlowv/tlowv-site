@@ -21,7 +21,6 @@
             </v-flex>
         </v-layout>
         <v-layout row wrap justify-center>
-
             <v-flex xs12>
                 <v-card elevation=10>
                     <v-img src="https://i.imgur.com/Aq20zBN.jpg" height="400px">

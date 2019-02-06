@@ -1,7 +1,7 @@
 <template>
     <span>
         <div id="top"></div>
-        <v-container fluid fill-height class="home-hero" style="max-height: 95vh;">
+        <v-container fluid fill-height class="home-hero" style="max-height: 100vh;">
             <v-layout justify-center align-center column px-3>
                 <img src="https://i.imgur.com/KWNwM9l.png" alt="taylor law office" width="100%" class="tlo-hero">
                 <h2 class="hidden-sm-and-up white--text">Exceptional service at a reduced cost</h2>
