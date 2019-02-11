@@ -1,6 +1,9 @@
 <template>
     <v-card>
-        <v-card-title primary-title class="grey lighten-2">
+        <v-card-title 
+            primary-title 
+            class="grey lighten-2"
+        >
             <div>
                 <h3 class="headline mb-0">Drop us a line</h3>
                 <div>Fill out and submit this form to send us an e-mail</div>
@@ -44,7 +47,9 @@
                         round 
                         class="white--text red lighten-1" 
                         @click="reset"
-                    >Clear<v-icon class="ml-2" color="white">mdi-cancel</v-icon>
+                    >
+                        Clear
+                    <v-icon class="ml-2" color="white">mdi-cancel</v-icon>
                     </v-btn>
                     <v-btn 
                         flat 
@@ -55,12 +60,13 @@
                         type="submit" 
                         value="Send"
                         :disabled="!valid"
-                    >Submit<v-icon class="ml-2" color="white">mdi-send</v-icon>
+                    >
+                        Submit
+                    <v-icon class="ml-2" color="white">mdi-send</v-icon>
                     </v-btn>
                 </v-card-actions>
             </v-form>
         </div>
-
     </v-card>
 </template>
 

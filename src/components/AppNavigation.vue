@@ -1,6 +1,12 @@
 <template>
     <span>
-        <v-navigation-drawer app v-model="drawer" class="blue-grey darken-1" dark disable-resize-watcher>
+        <v-navigation-drawer 
+            app 
+            v-model="drawer" 
+            class="blue-grey darken-1" 
+            dark 
+            disable-resize-watcher
+        >
             <v-list>
                 <template v-for="(item, index) in items">
                     <v-list-tile :key="index">
@@ -14,8 +20,16 @@
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar flat app dark color="blue-grey darken-1">
-            <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
+        <v-toolbar 
+            flat 
+            app 
+            dark 
+            color="blue-grey darken-1"
+        >
+            <v-toolbar-side-icon 
+                class="hidden-md-and-up" 
+                @click="drawer = !drawer"
+            ></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <div class="hidden-md-and-up ml-3 red--text font-weight-black">Call: 304-225-8529</div>
             <router-link to="/">
@@ -23,12 +37,33 @@
                     <img class="brand-logo" src="https://i.imgur.com/vdgnQ4f.png" alt="tlo brand">
                 </v-toolbar-title>
             </router-link>
-            <v-btn flat round class="hidden-sm-and-down" to="/attorneys">Attorneys</v-btn>
-            <v-btn flat round class="hidden-sm-and-down" to="/practice">Practice</v-btn>
+            <v-btn 
+                flat 
+                round 
+                class="hidden-sm-and-down" 
+                to="/attorneys"
+            >
+                Attorneys
+            </v-btn>
+            <v-btn 
+                flat 
+                round 
+                class="hidden-sm-and-down" 
+                to="/practice"
+            >
+                Practice
+            </v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <div class="hidden-sm-and-down">330 Scott Ave, Suite 3 | Morgantown, WV 26508</div>
             <div class="hidden-sm-and-down ml-3 red--text font-weight-black">304-225-8529</div>
-            <v-btn round color="red darken-2" class="white--text hidden-sm-and-down" to="/contact">Contact Us</v-btn>
+            <v-btn 
+                round 
+                color="red darken-2" 
+                class="white--text hidden-sm-and-down" 
+                to="/contact"
+            >
+                Contact Us
+            </v-btn>
         </v-toolbar>
     </span>
 </template>
@@ -52,6 +87,10 @@ export default {
                 {
                     title: 'Contact',
                     route: '/contact'
+                },
+                {
+                    title: 'About Us',
+                    route: '/about'
                 }
             ]
         };
@@ -70,5 +109,4 @@ a {
     width: 80px;
     margin-top: 5px;
 }
-
 </style>

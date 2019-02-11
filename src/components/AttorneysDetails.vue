@@ -1,7 +1,10 @@
 <template>
     <span>
         <v-container grid-list-lg>
-            <v-layout row nowrap>
+            <v-layout 
+                row 
+                nowrap
+            >
                 <v-flex>
                     <div class="headline mt-3">Quality Defense</div>
                     <p class="subheading mt-3">
@@ -18,10 +21,17 @@
                 </v-flex>
             </v-layout>
         </v-container>
-        <v-sheet color="grey lighten-3" class="px-3">
+        <v-sheet 
+            color="grey lighten-3" 
+            class="px-3"
+        >
             <v-timeline class="hidden-sm-and-down">
                 <v-timeline-item color="indigo darken-1">
-                    <span slot="opposite"><strong>2008 </strong>Trevor Taylor Opens Taylor Law Office</span>
+                    <span slot="opposite">
+                        <strong>2008 </strong>
+                        Trevor Taylor Opens Taylor Law Office
+                    </span>
+
                     <v-card>
                         <v-card-title class="indigo darken-1">
                             <v-icon
@@ -43,10 +53,22 @@
                         </v-container>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-dialog v-model="dialog1" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog1" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Trevor K. Taylor
                                     </v-card-title>
                                     <v-card-text>
@@ -57,7 +79,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog1=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog1=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -67,14 +92,19 @@
                     </v-card>
                 </v-timeline-item>
                 <v-timeline-item color="green lighten-1">
-                    <span slot="opposite"><strong>2009 </strong>Paul Gwaltney, Jr. Joins TLO</span>
+                    <span slot="opposite">
+                        <strong>2009 </strong>
+                        Paul Gwaltney, Jr. Joins TLO
+                    </span>
                     <v-card>
                         <v-card-title class="green lighten-1 justify-end">
-                        <h2 class="display-1 mr-3 white--text font-weight-light">Paul Gwaltney</h2>
-                        <v-icon
-                            dark
-                            size="42"
-                        >mdi-gavel</v-icon>
+                            <h2 class="display-1 mr-3 white--text font-weight-light">Paul Gwaltney</h2>
+                            <v-icon
+                                dark
+                                size="42"
+                            >
+                                mdi-gavel
+                            </v-icon>
                         </v-card-title>
                         <v-container>
                             <v-layout class="px-2">
@@ -85,10 +115,22 @@
                             </v-layout>
                         </v-container>
                         <v-card-actions>
-                            <v-dialog v-model="dialog2" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog2" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Paul W. Gwaltney, Jr.
                                     </v-card-title>
                                     <v-card-text>
@@ -98,7 +140,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog2=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog2=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -108,7 +153,10 @@
                     </v-card>
                 </v-timeline-item>
                 <v-timeline-item color="amber lighten-1">
-                    <span slot="opposite"><strong>2012 </strong>Chris Denson Comes Aboard</span>
+                    <span slot="opposite">
+                        <strong>2012 </strong>
+                        Chris Denson Comes Aboard
+                    </span>
                     <v-card>
                         <v-card-title class="amber lighten-1">
                         <v-icon
@@ -134,10 +182,22 @@
                         </v-container>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-dialog v-model="dialog3" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog3" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Chris Denson
                                     </v-card-title>
                                     <v-card-text>
@@ -162,7 +222,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog3=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog3=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -173,7 +236,10 @@
                 </v-timeline-item>
 
                 <v-timeline-item color="red lighten-1">
-                    <span slot="opposite"><strong>2013 </strong> Tiffany Cropp Joins TLO</span>
+                    <span slot="opposite">
+                        <strong>2013 </strong> 
+                        Tiffany Cropp Joins TLO
+                    </span>
                     <v-card>
                         <v-card-title class="red lighten-1 justify-end">
                         <h2 class="display-1 mr-3 white--text font-weight-light">Tiffany Cropp</h2>
@@ -191,9 +257,18 @@
                         </v-container>
                         <v-card-actions>
                             <v-dialog v-model="dialog4" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Tiffany A. Cropp
                                     </v-card-title>
                                     <v-card-text>
@@ -203,7 +278,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog4=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog4=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -213,9 +291,21 @@
                     </v-card>
                 </v-timeline-item>
             </v-timeline>
-            <v-timeline dense class="hidden-md-and-up">
-                <v-timeline-item fill-dot large color="indigo darken-1">
-                    <span class="white--text font-weight-black" slot="icon">2008</span>
+            <v-timeline 
+                dense 
+                class="hidden-md-and-up"
+            >
+                <v-timeline-item 
+                    fill-dot 
+                    large 
+                    color="indigo darken-1"
+                >
+                    <span 
+                        class="white--text font-weight-black" 
+                        slot="icon"
+                    >
+                        2008
+                    </span>
                     <v-card>
                         <v-card-title class="indigo darken-1">
                             <v-icon
@@ -223,7 +313,7 @@
                                 size="42"
                                 class="mr-2"
                             >
-                                mdi-scale-balance
+                                mdi-gavel
                             </v-icon>
                             <h2 class="font-weight-bold white--text">Trevor Taylor</h2>
                         </v-card-title>
@@ -237,10 +327,22 @@
                         </v-container>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-dialog v-model="dialog1" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog1" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Trevor K. Taylor
                                     </v-card-title>
                                     <v-card-text>
@@ -251,7 +353,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog1=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog1=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -260,19 +365,32 @@
                         </v-card-actions>
                     </v-card>
                 </v-timeline-item>
-                <v-timeline-item fill-dot large color="green lighten-1">
-                    <span class="white--text font-weight-black" slot="icon">2009</span>
+                <v-timeline-item 
+                    fill-dot 
+                    large 
+                    color="green lighten-1"
+                >
+                    <span 
+                        class="white--text font-weight-black" 
+                        slot="icon"
+                    >
+                        2009
+                    </span>
                     <v-card>
                         <v-card-title class="green lighten-1">
                             <v-icon
                                 dark
                                 size="42"
                                 class="mr-2"
-                            >mdi-gavel</v-icon>
+                            >
+                                mdi-bank
+                            </v-icon>
                             <h2 class="font-weight-bold white--text">Paul Gwaltney</h2>
                         </v-card-title>
                         <v-container>
-                            <v-layout class="px-2">
+                            <v-layout 
+                                class="px-2"
+                            >
                                 Paul focus his practice on uninsured or underinsured motorists, 
                                 premises liability, serious injury and wrongful death, with bar 
                                 admissions to West Virginia, U.S. District Courts for Southern and 
@@ -281,10 +399,22 @@
                         </v-container>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-dialog v-model="dialog2" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog2" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Paul W. Gwaltney, Jr.
                                     </v-card-title>
                                     <v-card-text>
@@ -294,7 +424,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog2=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog2=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -303,16 +436,25 @@
                         </v-card-actions>
                     </v-card>
                 </v-timeline-item>
-                <v-timeline-item fill-dot large color="amber lighten-1">
-                    <span class="white--text font-weight-black" slot="icon">2012</span>
+                <v-timeline-item 
+                    fill-dot 
+                    large 
+                    color="amber lighten-1"
+                >
+                    <span 
+                        class="white--text font-weight-black" 
+                        slot="icon"
+                    >
+                        2012
+                    </span>
                     <v-card>
-                        <v-card-title class="amber lighten-1">
+                        <v-card-title class="amber darken-1">
                             <v-icon
                                 class="mr-2"
                                 dark
                                 size="42"
                             >
-                                mdi-book-open-page-variant
+                                mdi-scale-balance
                             </v-icon>
                             <h2 class="white--text font-weight-bold">Chris Denson</h2>
                         </v-card-title>
@@ -330,26 +472,44 @@
                         </v-container>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-dialog v-model="dialog3" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog3" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Christopher B. Denson
                                     </v-card-title>
                                     <v-card-text>
-                                        <p>Chris earned his J.D. from Widener University in 1999, and joined Taylor Law Office in 2012.</p>
-                                        <p>His representative experience includes defending the largest major convenience store 
+                                        <p>
+                                            Chris earned his J.D. from Widener University in 1999, and joined Taylor Law Office in 2012.
+                                        </p>
+                                        <p>
+                                            His representative experience includes defending the largest major convenience store 
                                             chains in West Virginia, the handling of numerous large exposure property damage/fire 
                                             loss claims on behalf of insurers, representing drilling companies in defense of wrongful 
                                             death and deliberate intent claims arising out of incidents occurring on well sites.  
                                             He's also defended engineers, real estate companies, brokers and agents in professional 
                                             liability matters, as well as timbering, manufacturing, and energy clients in deliberate 
-                                            intent cases involving serious injury or death.</p>
-                                        <p>Chris has represented insurance companies before the West Virginia Insurance Commissioner 
+                                            intent cases involving serious injury or death.
+                                        </p>
+                                        <p>
+                                            Chris has represented insurance companies before the West Virginia Insurance Commissioner 
                                             on administrative first and third party claims associated with alleged violations of 
                                             the West Virginia Unfair Trade Practices Act, and has trial experience with cases 
                                             ranging from deliberate intent, wrongful death, and serious personal injury.  He also 
-                                            serves as a member of The Defense Trial Counsel of West Virginia</p>
+                                            serves as a member of The Defense Trial Counsel of West Virginia.
+                                        </p>
                                         <p>
                                             He's previously been Co-Chair of the construction division for the United Way of Harrison County, 
                                             and a past member of the American Red Cross North Center WV Board of Directors.
@@ -358,7 +518,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog3=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog3=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>
@@ -367,8 +530,17 @@
                         </v-card-actions>
                     </v-card>
                 </v-timeline-item>
-                <v-timeline-item fill-dot large color="red lighten-1">
-                    <span class="white--text font-weight-black" slot="icon">2013</span>
+                <v-timeline-item 
+                    fill-dot 
+                    large 
+                    color="red lighten-1"
+                >
+                    <span 
+                        class="white--text font-weight-black" 
+                        slot="icon"
+                    >
+                        2013
+                    </span>
                     <v-card>
                         <v-card-title class="red lighten-1">
                             <v-icon
@@ -376,7 +548,7 @@
                                 size="42"
                                 class="mr-2"
                             >
-                                mdi-bank
+                                mdi-book-open-page-variant
                             </v-icon>
                             <h2 class="white--text font-weight-bold">Tiffany Cropp</h2>
                         </v-card-title>
@@ -387,10 +559,22 @@
                         </v-container>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-dialog v-model="dialog4" width="500">
-                                <v-btn slot="activator" flat color="blue-grey">See Bio</v-btn>
+                            <v-dialog 
+                                v-model="dialog4" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
                                 <v-card>
-                                    <v-card-title class="headline grey lighten-2" primary-title>
+                                    <v-card-title 
+                                        class="headline grey lighten-2" 
+                                        primary-title
+                                    >
                                         Tiffany A. Cropp
                                     </v-card-title>
                                     <v-card-text>
@@ -400,7 +584,10 @@
                                     <v-divider></v-divider>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
-                                        <v-btn flat @click="dialog4=false">
+                                        <v-btn 
+                                            flat 
+                                            @click="dialog4=false"
+                                        >
                                             Dismiss
                                         </v-btn>
                                     </v-card-actions>

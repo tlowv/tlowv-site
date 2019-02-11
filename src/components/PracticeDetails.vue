@@ -1,6 +1,9 @@
 <template>
     <v-container grid-list-lg>
-        <v-layout row nowrap>
+        <v-layout 
+            row 
+            nowrap
+        >
             <v-flex>
                 <div class="headline mt-3">Our Expertise Spans the State.</div>
                 <p class="subheading mt-3">Taylor Law Office primarily focuses on insurance defense. 
@@ -20,13 +23,27 @@
                 </p>
             </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout 
+            row 
+            wrap 
+            justify-center
+        >
             <v-flex xs12>
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/Aq20zBN.jpg" height="400px">
-                        <v-container fill-height fluid>
+                    <v-img 
+                        src="https://i.imgur.com/Aq20zBN.jpg" 
+                        height="400px"
+                    >
+                        <v-container 
+                            fill-height 
+                            fluid
+                        >
                             <v-layout fill-height>
-                                <v-flex xs12 align-end flexbox>
+                                <v-flex 
+                                    xs12 
+                                    align-end 
+                                    flexbox
+                                >
                                     <span class="headline white--text">INSURANCE DEFENSE</span>
                                 </v-flex>
                             </v-layout>
@@ -65,12 +82,25 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex 
+                xs12 
+                md6
+            >
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/UYS6D9L.jpg" height="400px">
-                        <v-container fill-height fluid>
+                    <v-img 
+                        src="https://i.imgur.com/UYS6D9L.jpg" 
+                        height="400px"
+                    >
+                        <v-container 
+                            fill-height 
+                            fluid
+                        >
                             <v-layout fill-height>
-                                <v-flex xs12 align-end flexbox>
+                                <v-flex 
+                                    xs12 
+                                    align-end 
+                                    flexbox
+                                >
                                     <span class="headline white--text">WORKPLACE ACCIDENTS</span>
                                 </v-flex>
                             </v-layout>
@@ -101,12 +131,25 @@
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex 
+                xs12 
+                md6
+            >
                 <v-card elevation=10>
-                    <v-img src="https://i.imgur.com/E7GQKLr.jpg" height="400px">
-                        <v-container fill-height fluid>
+                    <v-img 
+                        src="https://i.imgur.com/E7GQKLr.jpg" 
+                        height="400px"
+                    >
+                        <v-container 
+                            fill-height 
+                            fluid
+                        >
                             <v-layout fill-height>
-                                <v-flex xs12 align-end flexbox>
+                                <v-flex 
+                                    xs12 
+                                    align-end 
+                                    flexbox
+                                >
                                     <span class="headline white--text">PERSONAL INJURY</span>
                                 </v-flex>
                             </v-layout>
