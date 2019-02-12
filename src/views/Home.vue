@@ -4,6 +4,8 @@
     <home-details></home-details>
     <home-stripe></home-stripe>
     <home-details-lower></home-details-lower>
+    <home-stripe></home-stripe>
+    <home-details-lower></home-details-lower>
   </span>
 </template>
 

@@ -25,7 +25,7 @@
             color="grey lighten-3" 
             class="px-3"
         >
-            <v-timeline class="hidden-sm-and-down">
+            <v-timeline class="timeline hidden-sm-and-down">
                 <v-timeline-item color="indigo darken-1">
                     <span slot="opposite">
                         <strong>2008 </strong>
@@ -39,7 +39,7 @@
                                 size="42"
                                 class="mr-3"
                             >
-                                mdi-scale-balance
+                                mdi-gavel
                             </v-icon>
                             <h2 class="display-1 white--text font-weight-light">Trevor Taylor</h2>
                         </v-card-title>
@@ -103,7 +103,7 @@
                                 dark
                                 size="42"
                             >
-                                mdi-gavel
+                                mdi-bank
                             </v-icon>
                         </v-card-title>
                         <v-container>
@@ -164,7 +164,7 @@
                             dark
                             size="42"
                         >
-                            mdi-book-open-page-variant
+                            mdi-scale-balance
                         </v-icon>
                         <h2 class="display-1 white--text font-weight-light">Chris Denson</h2>
                         </v-card-title>
@@ -247,7 +247,7 @@
                             dark
                             size="42"
                         >
-                            mdi-bank
+                            mdi-book-open-page-variant
                         </v-icon>
                         </v-card-title>
                         <v-container>
@@ -628,4 +628,8 @@ export default {
 </script>
 
 <style scoped>
+.timeline {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 </style>
