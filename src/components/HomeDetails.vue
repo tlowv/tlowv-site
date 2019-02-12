@@ -1,83 +1,42 @@
 <template>
-    <v-container 
-        fluid 
+  <v-container 
+    fluid 
+  >
+    <v-flex id="below-fold" class="mb-5"></v-flex>
+    <v-layout 
+      row 
+      wrap
     >
-        <v-flex id="below-fold" class="mb-5"></v-flex>
-        <v-layout 
-            row 
-            wrap
-        >
-            <v-flex xs12 md4 class="home-block">
-                <v-icon size="128" color="amber darken-1">
-                    mdi-scale-balance
-                </v-icon>
-                <h1 class="display-1 text-xs-center mt-4">Reasonable</h1>
-                <p class="subheading text-xs-center my-3">
-                    Taylor Law Office provides extremely effective service for a very reasonable, competitive price.  Fair defense for a fair price.
-                </p>
-                <a class="text-xs-center" href="#">Contact us today for a quote.</a>
-            </v-flex>
-            <v-flex xs12 md4 class="home-block">
-                <v-icon size="128" color="amber darken-1">
-                    mdi-gavel
-                </v-icon>
-                <h1 class="display-1 text-xs-center mt-4">Effective</h1>
-                <p class="subheading text-xs-center my-3">
-                    Whether through trial victories or settlement negotiations, our clients experience a satisfaction rate of over 95%.
-                </p>
-                <a class="text-xs-center" href="#">Learn why our attorneys are so effective.</a>
-            </v-flex>
-            <v-flex xs12 md4 class="home-block">
-                <v-icon size="128" color="amber darken-1">
-                    mdi-book-open-page-variant
-                </v-icon>
-                <h1 class="display-1 text-xs-center mt-4">Knowledgeable</h1>
-                <p class="subheading text-xs-center my-3">
-                    With years of experience across many different practice areas, you can bet that we've seen almost everything.  This experience is priceless.
-                </p>
-                <a class="text-xs-center" href="#">See which areas we specialize in.</a>
-            </v-flex>
-        </v-layout>
-    </v-container>
-    <!-- <v-container>
-        <v-layout column>
-            <v-flex class="mb-5" id="below-fold"></v-flex>
-            <v-flex class="display-2 text-xs-center my-5">Why Taylor Law Office is Right for You</v-flex>
-            <v-flex>
-                <div class="headline mt-3">Exceptional Service</div>
-                <p class="subheading mt-3">
-                    Exceptional service at a reasonable rate with the client's interest always placed first. 
-                    Taylor Law Office is committed to this simple principle. In practice, this principle 
-                    is exhibited in numerous ways. First, we aggressively defend all cases by tirelessly 
-                    investigating and thoroughly developing all viable arguments in our client's favor. 
-                    Through discovery, whether written or depositions, our attorneys pursue all angles to 
-                    defend our clients. By approaching all cases in this manner, should the case go to trial, 
-                    our attorneys are prepared to make the absolute strongest arguments.
-                </p>
-            </v-flex>
-            <v-flex class="blue-background">
-                <div class="headline mt-3">Reasonable Costs</div>
-                <p class="subheading mt-3">
-                    In addition to quality service, Taylor Law Office is dedicated to providing such 
-                    representation at a reasonable price. Not only are Taylor Law Office's hourly rates 
-                    reduced as compared to other firms, but most of the costs and expenses associated with 
-                    legal representation are not forced upon the insurer. Among other things, this includes 
-                    costs for electronic legal research.
-                </p>     
-            </v-flex>
-            <v-flex>
-                <div class="headline mt-3">Responsive Action</div>
-                <p class="subheading mt-3">
-                    Finally, it is the client that is placed at the forefront of all decisions at Taylor 
-                    Law Office. From the outset of all cases, our attorneys meet with all clients and 
-                    discuss the process involved with civil litigation. This most-basic step develops a 
-                    bond with the client that fosters trust and strengthens defenses. In fact, on multiple 
-                    occasions, insureds defended by Taylor Law Office attorneys have returned for other 
-                    legal needs when issues arise.
-                </p>
-            </v-flex>
-        </v-layout>
-    </v-container> -->
+      <v-flex xs12 md4 class="home-block">
+        <v-icon size="128" color="amber darken-1">mdi-scale-balance</v-icon>
+        <h1 class="display-1 text-xs-center mt-4">Reasonable</h1>
+        <p class="subheading text-xs-center my-3">
+          Taylor Law Office provides extremely effective service for a very reasonable, 
+          competitive price.  Fair defense for a fair price.
+        </p>
+        <a class="text-xs-center" href="#">Contact us today for a quote.</a>
+      </v-flex>
+      <v-flex xs12 md4 class="home-block">
+        <v-icon size="128" color="amber darken-1">mdi-gavel</v-icon>
+        <h1 class="display-1 text-xs-center mt-4">Effective</h1>
+        <p class="subheading text-xs-center my-3">
+          Whether through trial victories or settlement negotiations, our clients 
+          experience a satisfaction rate of over 95%.
+        </p>
+        <a class="text-xs-center" href="#">Learn why our attorneys are so effective.</a>
+      </v-flex>
+      <v-flex xs12 md4 class="home-block">
+        <v-icon size="128" color="amber darken-1">mdi-book-open-page-variant</v-icon>
+        <h1 class="display-1 text-xs-center mt-4">Knowledgeable</h1>
+        <p class="subheading text-xs-center my-3">
+          With years of experience across many different practice areas, you can bet 
+          that we've seen almost everything.  This experience is priceless.
+        </p>
+        <a class="text-xs-center" href="#">See which areas we specialize in.</a>
+      </v-flex>
+    </v-layout>
+  </v-container>
+    
 </template>
 
 <script>
