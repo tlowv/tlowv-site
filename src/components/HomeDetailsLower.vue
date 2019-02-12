@@ -14,7 +14,7 @@
                     our attorneys are prepared to make the absolute strongest arguments.
                 </p>
             </v-flex>
-            <v-flex class="blue-background">
+            <v-flex>
                 <div class="headline mt-3">Reasonable Costs</div>
                 <p class="subheading mt-3">
                     In addition to quality service, Taylor Law Office is dedicated to providing such 
