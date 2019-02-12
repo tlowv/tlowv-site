@@ -80,7 +80,7 @@ export default {
         emailRules: [
             v => !!v || 'E-mail is required',
             v =>
-                /[a-z0-9\._%+!$&*=^|~#%'`?{}/\-]+@([a-z0-9\-]+\.){1,}([a-z]{2,16})/.test(
+                /[a-z0-9._%+!$&*=^|~#%'`?{}/-]+@([a-z0-9-]+.){1,}([a-z]{2,16})/.test(
                     v
                 ) || 'Must be a valid e-mail'
         ],

@@ -1,8 +1,10 @@
+
 <template>
     <div class="google-map" :id="mapName"></div>
 </template>
 
 <script>
+/* eslint-disable */
 export default {
     name: 'google-map',
     props: ['name'],
