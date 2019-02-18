@@ -17,13 +17,13 @@ import HomeDetailsLower from '@/components/HomeDetailsLower';
 import HomeStripeBottom from '@/components/HomeStripeBottom';
 
 export default {
-    name: 'home',
-    components: {
-        HomeHero,
-        HomeDetails,
-        HomeStripe,
-        HomeDetailsLower,
-        HomeStripeBottom
-    }
+  name: 'home',
+  components: {
+    HomeHero,
+    HomeDetails,
+    HomeStripe,
+    HomeDetailsLower,
+    HomeStripeBottom
+  }
 };
 </script>

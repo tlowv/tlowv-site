@@ -2,7 +2,7 @@
   <v-container 
     fluid 
   >
-    <v-flex id="below-fold" class="mb-5"></v-flex>
+    <v-flex id="below-fold"></v-flex>
     <v-layout 
       row 
       wrap
@@ -47,10 +47,13 @@ export default {
 
 <style scoped>
 .home-block {
-    display: flex;
-    flex-flow: column nowrap;
-    align-content: center;
-    margin: 15px 0;
-    padding: 0 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  padding: 0 15px;
+}
+
+#below-fold {
+  margin-bottom: 70px;
 }
 </style>
