@@ -10,10 +10,10 @@
     >
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-1">mdi-scale-balance</v-icon>
-        <h1 class="display-1 text-xs-center mt-4">Reasonable</h1>
+        <h1 class="display-1 text-xs-center mt-4">Fair</h1>
         <p class="subheading text-xs-center my-3">
           Taylor Law Office provides extremely effective service for a very reasonable, 
-          competitive price.  Fair defense for a fair price.
+          competitive price.  Quality defense for a fair price.
         </p>
         <a class="text-xs-center" href="/contact">Contact us today for a quote.</a>
       </v-flex>
