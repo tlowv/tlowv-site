@@ -20,8 +20,7 @@
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar 
-            flat 
+        <v-toolbar  
             app 
             dark 
             color="blue-grey darken-1"

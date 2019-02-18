@@ -1,7 +1,6 @@
 <template>   
   <v-container>
     <v-layout column>
-      <!-- <v-flex class="display-2 text-xs-center my-5">Why Taylor Law Office is Right for You</v-flex> -->
         <v-flex>
           <div class="headline mt-3">Exceptional Service</div>
           <p class="subheading mt-3">
