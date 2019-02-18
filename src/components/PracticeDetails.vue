@@ -31,7 +31,7 @@
             <v-flex xs12>
                 <v-card elevation=10>
                     <v-img 
-                        src="https://i.imgur.com/Aq20zBN.jpg" 
+                        src="https://i.imgur.com/PSKqpO6.jpg" 
                         height="400px"
                     >
                         <v-container 
@@ -88,7 +88,7 @@
             >
                 <v-card elevation=10>
                     <v-img 
-                        src="https://i.imgur.com/UYS6D9L.jpg" 
+                        src="https://i.imgur.com/ggQpd3Q.jpg" 
                         height="400px"
                     >
                         <v-container 
@@ -137,7 +137,7 @@
             >
                 <v-card elevation=10>
                     <v-img 
-                        src="https://i.imgur.com/E7GQKLr.jpg" 
+                        src="https://i.imgur.com/ztgB3Iw.jpg" 
                         height="400px"
                     >
                         <v-container 

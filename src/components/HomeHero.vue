@@ -44,7 +44,7 @@ export default {
 
 <style scoped>
 .home-hero {
-    background: url('https://i.imgur.com/IDTrhdW.jpg');
+    background: url('https://i.imgur.com/1BwbjnD.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;

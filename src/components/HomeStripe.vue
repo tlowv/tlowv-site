@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .midpage-banner {
-    background: url('https://imgur.com/jAqAVh8.jpg');
+    background: url('https://i.imgur.com/SJnOPXH.jpg');
     background-size: cover;
     background-position: center 18%;
     background-repeat: no-repeat;
