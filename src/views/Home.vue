@@ -4,7 +4,7 @@
     <home-details></home-details>
     <home-stripe></home-stripe>
     <home-details-lower></home-details-lower>
-    <home-stripe></home-stripe>
+    <home-stripe-bottom></home-stripe-bottom>
     <home-details-lower></home-details-lower>
   </span>
 </template>
@@ -14,6 +14,7 @@ import HomeHero from '@/components/HomeHero';
 import HomeDetails from '@/components/HomeDetails';
 import HomeStripe from '@/components/HomeStripe';
 import HomeDetailsLower from '@/components/HomeDetailsLower';
+import HomeStripeBottom from '@/components/HomeStripeBottom';
 
 export default {
     name: 'home',
@@ -21,7 +22,8 @@ export default {
         HomeHero,
         HomeDetails,
         HomeStripe,
-        HomeDetailsLower
+        HomeDetailsLower,
+        HomeStripeBottom
     }
 };
 </script>
