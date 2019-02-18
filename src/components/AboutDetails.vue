@@ -29,7 +29,7 @@
                 <div class="headline mt-3">Service</div>
                 <p class="subheading mt-3">
                     From Wheeling to Charleston, Morgantown to Beckley, and everywhere in 
-                    between -- when it comes to providing legal services in West Virginia, 
+                    between&mdash;when it comes to providing legal services in West Virginia, 
                     Taylor Law Office has the experience and skill necessary to successfully 
                     navigate the civil litigation system for both insurers and insureds.
                 </p>

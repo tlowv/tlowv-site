@@ -711,6 +711,7 @@
 <script>
 export default {
     name: 'AttorneysDetails',
+
     data: () => ({
         dialog1: false,
         dialog2: false,

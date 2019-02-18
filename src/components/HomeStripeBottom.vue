@@ -17,7 +17,7 @@
 
 <script>
 export default {
-    name: 'HomeStripe'
+    name: 'HomeStripeBottom'
 };
 </script>
 

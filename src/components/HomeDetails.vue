@@ -14,7 +14,7 @@
           Taylor Law Office provides extremely effective service for a very reasonable, 
           competitive price.  Fair defense for a fair price.
         </p>
-        <a class="text-xs-center" href="#">Contact us today for a quote.</a>
+        <a class="text-xs-center" href="/contact">Contact us today for a quote.</a>
       </v-flex>
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-1">mdi-gavel</v-icon>
@@ -23,7 +23,7 @@
           Whether through trial victories or settlement negotiations, our clients 
           experience a satisfaction rate of over 95%.
         </p>
-        <a class="text-xs-center" href="#">Learn why our attorneys are so effective.</a>
+        <a class="text-xs-center" href="/attorneys">Learn why our attorneys are so effective.</a>
       </v-flex>
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-1">mdi-book-open-page-variant</v-icon>
@@ -32,7 +32,7 @@
           With years of experience across many different practice areas, you can bet 
           that we've seen almost everything.  This experience is priceless.
         </p>
-        <a class="text-xs-center" href="#">See which areas we specialize in.</a>
+        <a class="text-xs-center" href="/practice">See which areas we specialize in.</a>
       </v-flex>
     </v-layout>
   </v-container>
@@ -47,13 +47,13 @@ export default {
 
 <style scoped>
 .home-block {
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: center;
-  padding: 0 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    padding: 0 15px;
 }
 
 #below-fold {
-  margin-bottom: 70px;
+    margin-bottom: 70px;
 }
 </style>
