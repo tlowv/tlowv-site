@@ -44,7 +44,7 @@
                                     align-end 
                                     flexbox
                                 >
-                                    <span class="headline white--text">INSURANCE DEFENSE</span>
+                                    <span class="outline-text headline white--text">INSURANCE DEFENSE</span>
                                 </v-flex>
                             </v-layout>
                         </v-container>
@@ -101,7 +101,7 @@
                                     align-end 
                                     flexbox
                                 >
-                                    <span class="headline white--text">WORKPLACE ACCIDENTS</span>
+                                    <span class="outline-text headline white--text">WORKPLACE ACCIDENTS</span>
                                 </v-flex>
                             </v-layout>
                         </v-container>
@@ -150,7 +150,7 @@
                                     align-end 
                                     flexbox
                                 >
-                                    <span class="headline white--text">PERSONAL INJURY</span>
+                                    <span class="outline-text headline white--text">PERSONAL INJURY</span>
                                 </v-flex>
                             </v-layout>
                         </v-container>

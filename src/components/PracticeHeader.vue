@@ -11,10 +11,10 @@
         column 
         pa-5
     >
-      <div class="display-3 white--text font-weight-black text-xs-center mb-3">Practice Areas</div>
+      <div class="outline-text display-3 white--text font-weight-black text-xs-center mb-3">Practice Areas</div>
       <v-divider></v-divider>
-      <h2 class="hidden-sm-and-up white--text text-xs-center">Our Collective Experience Will Suit Your Needs</h2>
-      <h2 class="display-3 font-weight-light white--text hidden-sm-and-down text-xs-center">Our Collective Experience Will Suit Your Needs</h2>
+      <h2 class="outline-text hidden-sm-and-up white--text text-xs-center">Our Collective Experience Will Suit Your Needs</h2>
+      <h2 class="outline-text display-3 font-weight-light white--text hidden-sm-and-down text-xs-center">Our Collective Experience Will Suit Your Needs</h2>
     </v-layout>
   </v-container>
 </template>

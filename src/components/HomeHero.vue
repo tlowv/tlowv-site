@@ -19,8 +19,8 @@
                     width="100%" 
                     class="tlo-hero"
                 >
-                <h2 class="hidden-sm-and-up white--text">Exceptional service at a reduced cost</h2>
-                <h2 class="display-3 font-weight-medium hidden-xs-only text-sm-center white--text">Exceptional service at a reduced cost</h2>
+                <h2 class="outline-text hidden-sm-and-up white--text">Exceptional service at a reduced cost</h2>
+                <h2 class="outline-text display-3 font-weight-medium hidden-xs-only text-sm-center white--text">Exceptional service at a reduced cost</h2>
                 <v-btn 
                     large 
                     outline 

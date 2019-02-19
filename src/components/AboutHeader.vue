@@ -1,10 +1,10 @@
 <template>
     <v-container fluid fill-height class="about-header" style="max-height: 60vh;">
         <v-layout justify-center align-center column pa-5>
-            <div class="display-3 white--text font-weight-black text-xs-center mb-3">About Us</div>
+            <div class="outline-text display-3 white--text font-weight-black text-xs-center mb-3">About Us</div>
             <v-divider></v-divider>
-            <h2 class="hidden-sm-and-up white--text text-xs-center">Our experience ensures that you get the results you're looking for.</h2>
-            <h2 class="display-3 font-weight-light white--text hidden-xs-only text-xs-center">Our experience ensures that you get the results you're looking for.</h2>
+            <h2 class="outline-text hidden-sm-and-up white--text text-xs-center">Our experience ensures that you get the results you're looking for.</h2>
+            <h2 class="outline-text display-3 font-weight-light white--text hidden-xs-only text-xs-center">Our experience ensures that you get the results you're looking for.</h2>
         </v-layout>
     </v-container>
 </template>
@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .about-header {
-    background: url('https://i.imgur.com/GDgZLDW.jpg');
+    background: url('https://i.imgur.com/fyQGU1u.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;
