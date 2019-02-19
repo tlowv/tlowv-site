@@ -79,6 +79,13 @@
                                       College of law in 2001, and started Taylor 
                                       Law Office in 2008.
                                   </p>
+                                  <ul>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                  </ul>
                                   <p>
                                       Concentrates his practice in the areas of 
                                       defense of large loss liability claims, first 
@@ -156,6 +163,13 @@
                                       College of law in 2003, and joined Taylor Law 
                                       Office in 2009.
                                   </p>
+                                  <ul>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                  </ul>
                                   <p>
                                       Concentrates his practice in the areas of 
                                       automobile accident defense, insurance 
@@ -328,14 +342,21 @@
                               </v-card-title>
                               <v-card-text>
                                   <p>
-                                      Tiffany earned her J.D. from West Virginia 
-                                      College of law in 2006, and joined Taylor Law 
-                                      Office in 2013.
+                                    Tiffany earned her J.D. from West Virginia 
+                                    College of law in 2006, and joined Taylor Law 
+                                    Office in 2013.
                                   </p>
+                                  <ul>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                  </ul>
                                   <p>
-                                      She concentrates her practice in the areas of 
-                                      insurance coverage, declaratory judgment 
-                                      actions, and deliberate intent.
+                                    She concentrates her practice in the areas of 
+                                    insurance coverage, declaratory judgment 
+                                    actions, and deliberate intent.
                                   </p>
                               </v-card-text>
                               <v-divider></v-divider>
