@@ -25,7 +25,7 @@ export default {
 .midpage-banner {
     background: url('https://i.imgur.com/SJnOPXH.jpg');
     background-size: cover;
-    background-position: center 18%;
+    background-position: 20% center;
     background-repeat: no-repeat;
     width: 100%;
     height: 35vh;

@@ -106,6 +106,8 @@ a {
 .brand-logo {
     height: 40px;
     width: 80px;
+    margin: 0 -10px;
     margin-top: 5px;
+    padding-left: 0;
 }
 </style>

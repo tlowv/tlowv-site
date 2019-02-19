@@ -31,11 +31,11 @@ export default {
 </script>
 
 <style>
+/* eslint-disable */
 .outline-text {
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15),
-                1px -1px 0 rgba(0, 0, 0, 0.15),
-                -1px 1px 0 rgba(0, 0, 0, 0.15),
-                1px 1px 0 rgba(0, 0, 0, 0.15);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15), 
+        1px -1px 0 rgba(0, 0, 0, 0.15),
+        -1px 1px 0 rgba(0, 0, 0, 0.15), 
+        1px 1px 0 rgba(0, 0, 0, 0.15);
 }
 </style>
-
