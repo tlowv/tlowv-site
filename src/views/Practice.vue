@@ -11,6 +11,7 @@ import PracticeDetails from '@/components/PracticeDetails';
 
 export default {
     name: 'practice',
+    title: 'Practice Areas | TLO',
     components: {
         PracticeHeader,
         PracticeDetails

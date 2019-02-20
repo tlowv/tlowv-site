@@ -19,6 +19,7 @@ import HomeDetailsBottom from '@/components/HomeDetailsBottom';
 
 export default {
     name: 'home',
+    title: 'Taylor Law Office',
     components: {
         HomeHero,
         HomeDetails,

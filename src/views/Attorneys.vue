@@ -11,6 +11,7 @@ import AttorneysDetails from '@/components/AttorneysDetails';
 
 export default {
     name: 'Attorneys',
+    title: 'Our Attorneys | TLO',
     components: {
         AttorneysHeader,
         AttorneysDetails

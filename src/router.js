@@ -11,27 +11,38 @@ export default new Router({
         {
             path: '/',
             name: 'home',
-            component: Home
+            component: Home,
+            meta: { title: 'Taylor Law Office' }
         },
         {
             path: '/about',
             name: 'about',
-            component: () => import('./views/About.vue')
+            component: () => import('./views/About.vue'),
+            meta: { title: 'About - Taylor Law Office' }
         },
         {
             path: '/attorneys',
             name: 'attorneys',
-            component: () => import('./views/Attorneys.vue')
+            component: () => import('./views/Attorneys.vue'),
+            meta: { title: 'Attorneys - Taylor Law Office' }
         },
         {
             path: '/practice',
             name: 'practice',
-            component: () => import('./views/Practice.vue')
+            component: () => import('./views/Practice.vue'),
+            meta: { title: 'Practice Areas - Taylor Law Office' }
         },
         {
             path: '/contact',
             name: 'contact',
-            component: () => import('./views/Contact.vue')
+            component: () => import('./views/Contact.vue'),
+            meta: { title: 'Contact Us - Taylor Law Office' }
+        },
+        {
+            path: '/sandbox',
+            name: 'sandbox',
+            component: () => import('./views/Sandbox.vue'),
+            meta: { title: 'Sandbox - Taylor Law Office' }
         }
     ],
     scrollBehavior(to, from, savedPosition) {

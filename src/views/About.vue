@@ -10,6 +10,7 @@ import AboutHeader from '@/components/AboutHeader';
 import AboutDetails from '@/components/AboutDetails';
 export default {
     name: 'About',
+    title: 'About Us | TLO',
     components: {
         AboutHeader,
         AboutDetails

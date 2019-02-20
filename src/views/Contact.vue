@@ -11,6 +11,7 @@ import ContactDetails from '@/components/ContactDetails';
 
 export default {
     name: 'Contact',
+    title: 'Contact Us | TLO',
     components: {
         ContactHeader,
         ContactDetails
