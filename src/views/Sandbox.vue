@@ -9,36 +9,32 @@
 </template>
 
 <script>
-
 export default {
     name: 'sandbox',
     title: 'Sandbox - TLO',
-    components: {
-        
-    }
+    components: {}
 };
 </script>
 
 <style>
 .container {
-  display: flex;
-  height: 500px;
-  width: 100%;
-  justify-content: space-between;
-  
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .item {
-  width: 200px;
+    width: 200px;
 }
 
 .item:nth-child(1) {
-  background-color: burlywood;
+    background-color: burlywood;
 }
 .item:nth-child(2) {
-  background-color: teal;
+    background-color: teal;
 }
 .item:nth-child(3) {
-  background-color: rosybrown;
+    background-color: rosybrown;
 }
 </style>

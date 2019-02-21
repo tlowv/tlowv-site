@@ -39,14 +39,14 @@
             </router-link>
             <v-btn 
                 flat 
-                round 
+                round 1
                 class="hidden-sm-and-down" 
                 to="/attorneys"
             >
                 Attorneys
             </v-btn>
             <v-btn 
-                flat 
+                flat
                 round 
                 class="hidden-sm-and-down" 
                 to="/practice"
@@ -109,6 +109,5 @@ a {
     margin: 0 -10px;
     margin-top: 5px;
     padding-left: 0;
-    
 }
 </style>
