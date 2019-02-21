@@ -24,7 +24,6 @@
             app 
             dark 
             color="blue-grey darken-1"
-            height="50"
         >
             <v-toolbar-side-icon 
                 class="hidden-md-and-up" 
