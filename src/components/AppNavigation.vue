@@ -24,6 +24,7 @@
             app 
             dark 
             color="blue-grey darken-1"
+            height="50"
         >
             <v-toolbar-side-icon 
                 class="hidden-md-and-up" 
@@ -104,10 +105,10 @@ a {
 }
 
 .brand-logo {
-    height: 40px;
-    width: 80px;
+    width: 75px;
     margin: 0 -10px;
     margin-top: 5px;
     padding-left: 0;
+    
 }
 </style>

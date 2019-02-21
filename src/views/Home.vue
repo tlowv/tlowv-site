@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: black !important;
+}
 .outline-text {
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15), 1px -1px 0 rgba(0, 0, 0, 0.15),
         -1px 1px 0 rgba(0, 0, 0, 0.15), 1px 1px 0 rgba(0, 0, 0, 0.15);
