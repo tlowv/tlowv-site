@@ -5,16 +5,12 @@
 </template>
 
 <script>
-
 export default {
     name: 'sandbox',
     title: 'Sandbox - TLO',
-    components: {
-        
-    }
+    components: {}
 };
 </script>
 
 <style>
-
 </style>

@@ -6,7 +6,7 @@
     <v-layout 
       row 
       wrap
-      style="max-width: 1300px; margin: 0 auto;"
+      style="max-width: 1100px; margin: 0 auto;"
     >
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-1">mdi-scale-balance</v-icon>
