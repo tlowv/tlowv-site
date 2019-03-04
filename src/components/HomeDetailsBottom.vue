@@ -1,8 +1,8 @@
 <template>   
-  <v-container style="max-width: 800px">
+  <v-container style="max-width: 700px">
     <v-layout column>
         <v-flex>
-          <p class="subheading mt-3">
+          <p class="mt-3">
             Exceptional service at a reasonable rate with the client's interest always placed first. 
             Taylor Law Office is committed to this simple principle. In practice, this principle 
             is exhibited in numerous ways. First, we aggressively defend all cases by tirelessly 
@@ -13,7 +13,7 @@
           </p>
         </v-flex>
         <v-flex>
-          <p class="subheading mt-3">
+          <p class="mt-3">
             In addition to quality service, Taylor Law Office is dedicated to providing such 
             representation at a reasonable price. Not only are Taylor Law Office's hourly rates 
             reduced as compared to other firms, but most of the costs and expenses associated with 
@@ -22,7 +22,7 @@
           </p>     
         </v-flex>
         <v-flex>
-          <p class="subheading mt-3">
+          <p class="mt-3">
             Finally, it is the client that is placed at the forefront of all decisions at Taylor 
             Law Office. From the outset of all cases, our attorneys meet with all clients and 
             discuss the process involved with civil litigation. This most-basic step develops a 

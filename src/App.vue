@@ -23,6 +23,8 @@ export default {
 
 <style>
 p {
+  color: #333;
+  font-size: 1.25em;
   line-height: 1.5;
 }
 

@@ -1,13 +1,13 @@
 <template>
   <span>
-    <v-container grid-list-lg  style="max-width: 800px;>
+    <v-container grid-list-lg  style="max-width: 700px;>
         <v-layout 
             row 
             nowrap
         >
             <v-flex">
                 <div class="headline mt-3">Quality Defense</div>
-                <p class="subheading mt-3">
+                <p class="mt-3">
                     The primary focus of the practice at Taylor Law Office is 
                     insurance defense litigation. Collectively, our attorneys 
                     have handled many hundreds of cases for various insurers 
@@ -710,12 +710,12 @@
             </v-timeline-item>
         </v-timeline>
       </v-sheet>
-      <v-container grid-list-lg style="max-width: 800px;">
+      <v-container grid-list-lg style="max-width: 700px;">
         <v-flex>
           <div class="headline mt-3">
             Experienced, Knowledgable Attorneys Are Ready to Assist You Today
           </div>
-          <p class="subheading mt-3">
+          <p class="mt-3">
             The frustration of paying associates to learn how to practice 
             insurance defense simply is not an issue at Taylor Law Office. 
             Our attorneys have already traversed the gauntlet of legal obstacles 
