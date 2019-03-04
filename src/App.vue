@@ -22,4 +22,8 @@ export default {
 </script>
 
 <style>
+p {
+  line-height: 1.5;
+}
+
 </style>

@@ -3,6 +3,7 @@
         <v-layout 
             row 
             nowrap
+            style="max-width: 800px; margin: 0 auto;"
         >
             <v-flex>
                 <div class="headline mt-3">Our Expertise Spans the State.</div>
@@ -179,7 +180,7 @@
                 </v-card>
             </v-flex>
         </v-layout>
-        <v-layout row nowrap>
+        <v-layout row nowrap style="max-width: 800px; margin: 0 auto;">
             <v-flex>
                 <div class="headline mt-3">Lorem ipsum</div>
                 <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

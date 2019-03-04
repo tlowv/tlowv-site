@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container style="max-width: 800px;">
         <v-layout column>
             <v-flex>
                 <div class="headline mt-3">Quality</div>
