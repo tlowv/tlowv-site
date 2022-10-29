@@ -1,11 +1,11 @@
 <template>
   <span>
-    <v-container grid-list-lg  style="max-width: 700px;>
+    <v-container grid-list-lg  style="max-width: 700px;">
         <v-layout 
             row 
             nowrap
         >
-            <v-flex">
+            <v-flex>
                 <div class="headline mt-3">Quality Defense</div>
                 <p class="mt-3">
                     The primary focus of the practice at Taylor Law Office is 
