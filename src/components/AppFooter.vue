@@ -45,7 +45,7 @@
                 white--text
                 xs12
             >
-                &copy;2019 - 
+                &copy;2022 - 
                 <strong>Taylor Law Office</strong>
             </v-flex>
             <v-flex blue-grey
@@ -56,7 +56,6 @@
                 white--text
                 xs12
             >
-                Created by Jason Parsons using Vue.js and Vuetify
             </v-flex>
         </v-layout>
     </v-footer>

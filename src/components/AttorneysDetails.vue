@@ -47,10 +47,13 @@
                   </v-card-title>
                   <v-container>
                       <v-layout class="px-2">
-                          Trevor's primary litigation focus is dedicated to Civil 
-                          Defense in areas including, but not limited to coverage 
-                          determinations; security, hotel, and airport/airplane 
-                          liability; deliberate intent, and wrongful death.
+                          Concentrates practice in areas of insurance defense, appeals, insurance
+                          coverage, wrongful death defense, defense of first-party insurance claims, extra-
+                          contractual defense of insurers, products liability, first-party and third-party pre-litigation 
+                          investigations and examinations under oath, property damage defense,
+                          commercial defense, defense of insurers before the West Virginia Insurance
+                          Commissioner, trucking and commercial carrier defense, personal and bodily
+                          injury defense, and defense of mass litigation and toxic tort claims.
                       </v-layout>
                   </v-container>
                   <v-card-actions>
@@ -76,26 +79,29 @@
                               <v-card-text>
                                   <p>
                                       Trevor earned his J.D. from West Virginia 
-                                      College of law in 2001, and started Taylor 
+                                      College of law, and was admitted to the West 
+                                      Virginia Bar in 2001. He then started Taylor 
                                       Law Office in 2008.
                                   </p>
                                   <ul>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>West Virginia University (B.A., Philosophy 1993)</li>
+                                    <li>West Virginia University School of Law (J.D. 2001)</li><br />
+                                    <h4>Reported Cases</h4>
+                                    <li>Sneberger v. Morrison, 776 S.E.2d 156 (W. Va. 2015)</li>
+                                    <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co., 799 S.E.2d 550 (W. Va. 2017)</li>
+                                    <li>Farmers &amp; Mechanics Mut. Ins. Co. v. Allen, 778 S.E.2d 718 (W. Va. 2015)</li>
+                                    <li>Brickstreet Mut. Ins. Co. v. Zurich Am. Ins. Co., 813 S.E.2d 67 (W. Va. 2018)</li>
+                                    <li>State ex rel. State Auto Prop. Ins. Cos. v. Stucky, 806 S.E.2d 160 (W. Va. 2017)</li>
+                                    <li>State Auto Prop. &amp; Cas. Ins. Co. v. Kober (W. Va. 2015)</li>
+                                    <li>Dolly v. United Disposal Serv. (W. Va. 2020)</li>
+                                    <li>Am. Nat&#39;l Prop. &amp; Cas. Co. v. Clendenen, 793 S.E.2d 899 (W. Va. 2016)</li>
+                                    <li>State ex rel. Potomac Trucking &amp; Excavating, Inc. v. Courrier (W. Va. 2016)</li>
+                                    <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co. (W. Va. 2019)</li>
+                                    <li>Redman v. Fed. Grp., Inc. (W. Va. 2013)</li>
+                                    <li>State ex rel State Auto Prop. Ins. Co. v. Stucky (W. Va. 2016)</li><br />
                                   </ul>
                                   <p>
-                                      Concentrates his practice in the areas of 
-                                      defense of large loss liability claims, first 
-                                      party coverage disputes, insurance coverage, 
-                                      and extra-contractual defense.
-                                  </p>
-                                  <p>
-                                      Successfully tried over 20 cases, several 
-                                      before the Supreme Court, and resolved 
-                                      countless others through mediation.
+                                      
                                   </p>
                               </v-card-text>
                               <v-divider></v-divider>
@@ -113,85 +119,7 @@
                   </v-card-actions>
               </v-card>
           </v-timeline-item>
-          <v-timeline-item color="green lighten-1">
-              <span slot="opposite">
-                  <strong>2009 </strong>
-                  Paul Gwaltney, Jr. Joins TLO
-              </span>
-              <v-card>
-                  <v-card-title class="green lighten-1 justify-end">
-                      <h2 class="display-1 mr-3 white--text font-weight-light">
-                          Paul Gwaltney
-                      </h2>
-                      <v-icon
-                          dark
-                          size="42"
-                      >
-                          mdi-bank
-                      </v-icon>
-                  </v-card-title>
-                  <v-container>
-                      <v-layout class="px-2">
-                          Paul focuses his practice on uninsured or underinsured 
-                          motorists, premises liability, serious injury and wrongful 
-                          death, with bar admissions to West Virginia, U.S. District 
-                          Courts for Southern and Northern districts.
-                      </v-layout>
-                  </v-container>
-                  <v-card-actions>
-                      <v-dialog 
-                          v-model="dialog2" 
-                          width="500"
-                      >
-                          <v-btn 
-                              slot="activator" 
-                              flat 
-                              color="blue-grey"
-                          >
-                              See Bio
-                          </v-btn>
-                          <v-card>
-                              <v-card-title 
-                                  class="headline grey lighten-2" 
-                                  primary-title
-                              >
-                                  Paul W. Gwaltney, Jr.
-                              </v-card-title>
-                              <v-card-text>
-                                  <p>
-                                      Paul earned his J.D. from West Virginia 
-                                      College of law in 2003, and joined Taylor Law 
-                                      Office in 2009.
-                                  </p>
-                                  <ul>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                  </ul>
-                                  <p>
-                                      Concentrates his practice in the areas of 
-                                      automobile accident defense, insurance 
-                                      coverage, uninsured, and underinsured motorist 
-                                      claims.
-                                  </p>
-                              </v-card-text>
-                              <v-divider></v-divider>
-                              <v-card-actions>
-                                  <v-spacer></v-spacer>
-                                  <v-btn 
-                                      flat 
-                                      @click="dialog2=false"
-                                  >
-                                      Dismiss
-                                  </v-btn>
-                              </v-card-actions>
-                          </v-card>
-                      </v-dialog>
-                  </v-card-actions>
-              </v-card>
-          </v-timeline-item>
+          
           <v-timeline-item color="amber lighten-1">
               <span slot="opposite">
                   <strong>2012 </strong>
@@ -299,6 +227,8 @@
               </v-card>
           </v-timeline-item>
 
+          
+        <!-- TIFFANY CROPP  -->
           <v-timeline-item color="red lighten-1">
               <span slot="opposite">
                   <strong>2013 </strong> 
@@ -347,11 +277,9 @@
                                     Office in 2013.
                                   </p>
                                   <ul>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</li>
+                                    <li>Admitted to the West Virginia bar, 2006</li>
+                                    <li>West Virginia University (B.A., Political Science, 2003)</li>
+                                    <li>West Virginia University College of Law (J.D., 2006)</li>
                                   </ul>
                                   <p>
                                     She concentrates her practice in the areas of 
@@ -374,6 +302,165 @@
                   </v-card-actions>
               </v-card>
           </v-timeline-item>
+
+        <!-- Matthew W. Misfeldt  -->
+          <v-timeline-item color="grey darken-1">
+              <span slot="opposite">
+                  <strong>2019 </strong> 
+                  Matthew Misdfeldt Joins TLO
+              </span>
+              <v-card>
+                  <v-card-title class="grey darken-1 justify-end">
+                  <h2 class="display-1 mr-3 white--text font-weight-light">
+                      Matt Misdfeldt
+                  </h2>
+                  <v-icon
+                      dark
+                      size="42"
+                  >
+                      mdi-gavel
+                  </v-icon>
+                  </v-card-title>
+                  <v-container>
+                  <v-layout px-2>
+                      Matt earned his J.D. from the University of Wisconsin Law in 2015, and joined TLO in 2019.
+                      He concentrates his practice in the areas of automobile accident defense,
+                      deliberate intent, insurance coverage, uninsured and underinsured motorist
+                      claims.
+                  </v-layout>
+                  </v-container>
+                  <v-card-actions>
+                      <v-dialog v-model="dialog4" width="500">
+                          <v-btn 
+                              slot="activator" 
+                              flat 
+                              color="blue-grey"
+                          >
+                              See Bio
+                          </v-btn>
+                          <v-card>
+                              <v-card-title 
+                                  class="headline grey lighten-2" 
+                                  primary-title
+                              >
+                                  Tiffany A. Cropp
+                              </v-card-title>
+                              <v-card-text>
+                                  <p>
+                                    Tiffany earned her J.D. from West Virginia 
+                                    College of law in 2006, and joined Taylor Law 
+                                    Office in 2013.
+                                  </p>
+                                  <ul>
+                                    <li>Admitted to the West Virginia bar, 2006</li>
+                                    <li>West Virginia University (B.A., Political Science, 2003)</li>
+                                    <li>West Virginia University College of Law (J.D., 2006)</li>
+                                  </ul>
+                                  <p>
+                                    She concentrates her practice in the areas of 
+                                    insurance coverage, declaratory judgment 
+                                    actions, and deliberate intent.
+                                  </p>
+                              </v-card-text>
+                              <v-divider></v-divider>
+                              <v-card-actions>
+                                  <v-spacer></v-spacer>
+                                  <v-btn 
+                                      flat 
+                                      @click="dialog4=false"
+                                  >
+                                      Dismiss
+                                  </v-btn>
+                              </v-card-actions>
+                          </v-card>
+                      </v-dialog>
+                  </v-card-actions>
+              </v-card>
+          </v-timeline-item>
+
+        <!-- HAMILTON D. SKEENS  -->
+          <v-timeline-item color="green lighten-1">
+              <span slot="opposite">
+                  <strong>2020 </strong>
+                  Hamilton D. Skeens Joins TLO
+              </span>
+              <v-card>
+                  <v-card-title class="green lighten-1 justify-end">
+                      <h2 class="display-1 mr-3 white--text font-weight-light">
+                          Hamilton D. Skeens
+                      </h2>
+                      <v-icon
+                          dark
+                          size="42"
+                      >
+                          mdi-bank
+                      </v-icon>
+                  </v-card-title>
+                  <v-container>
+                      <v-layout class="px-2">
+                          Concentrates his practice in areas of defense litigation; with particular
+                          emphasis on the defense of complex commercial litigation involving
+                          commercial trucking, construction defect, products liability, premises liability
+                          and lap slip cases
+                      </v-layout>
+                  </v-container>
+                  <v-card-actions>
+                      <v-dialog 
+                          v-model="dialog2" 
+                          width="500"
+                      >
+                          <v-btn 
+                              slot="activator" 
+                              flat 
+                              color="blue-grey"
+                          >
+                              See Bio
+                          </v-btn>
+                          <v-card>
+                              <v-card-title 
+                                  class="headline grey lighten-2" 
+                                  primary-title
+                              >
+                                  Hamilton D. Skeens
+                              </v-card-title>
+                              <v-card-text>
+                                  <p>
+                                      Hamilton was admitted to the West Virginia Bar in 1996, and joined Taylor Law 
+                                      Office in 2020.
+                                  </p>
+                                  <ul>
+                                    <li>District Court for the Northern District of West Virginia, 1996</li>
+                                    <li>District Court for the Southern District of West Virginia, 1996</li>
+                                    <li>Admitted to the North Carolina bar, 2004</li>
+                                    <li>Concord College (B.S., Business Administration, 1992)</li>
+                                    <li>Regent University (M.B.A., 1997)</li>
+                                    <li>West Virginia University College of Law (J.D., 1996)</li>
+                                    <li>Covington v. Smith, 213 W. Va. 309, 582 S.E.2d. 756 (2003)</li>
+                                  </ul>
+                                  <br />
+                                  <p>
+                                      Concentrates his practice in the areas of 
+                                      automobile accident defense, insurance 
+                                      coverage, uninsured, and underinsured motorist 
+                                      claims.
+                                  </p>
+                              </v-card-text>
+                              <v-divider></v-divider>
+                              <v-card-actions>
+                                  <v-spacer></v-spacer>
+                                  <v-btn 
+                                      flat 
+                                      @click="dialog2=false"
+                                  >
+                                      Dismiss
+                                  </v-btn>
+                              </v-card-actions>
+                          </v-card>
+                      </v-dialog>
+                  </v-card-actions>
+              </v-card>
+          </v-timeline-item>
+
       </v-timeline>
         <v-timeline 
           dense 
@@ -409,57 +496,7 @@
                     liability; deliberate intent, and wrongful death.
                   </v-layout>
                 </v-container>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-dialog 
-                    v-model="dialog1" 
-                    width="500"
-                  >
-                    <v-btn 
-                        slot="activator" 
-                        flat 
-                        color="blue-grey"
-                    >
-                      See Bio
-                  </v-btn>
-                  <v-card>
-                    <v-card-title 
-                      class="headline grey lighten-2" 
-                      primary-title
-                    >
-                      Trevor K. Taylor
-                    </v-card-title>
-                    <v-card-text>
-                      <p>
-                        Trevor earned his J.D. from West Virginia 
-                        College of law in 2001, and started Taylor Law 
-                        Office in 2008.
-                      </p>
-                      <p>
-                        Concentrates his practice in the areas of 
-                        defense of large loss liability claims, first 
-                        party coverage disputes, insurance coverage, 
-                        and extra-contractual defense.
-                      </p>
-                      <p>
-                        Successfully tried over 20 cases, several 
-                        before the Supreme Court, and resolved countless 
-                        others through mediation.
-                      </p>
-                    </v-card-text>
-                    <v-divider></v-divider>
-                    <v-card-actions>
-                      <v-spacer></v-spacer>
-                      <v-btn 
-                        flat 
-                        @click="dialog1=false"
-                      >
-                        Dismiss
-                      </v-btn>
-                    </v-card-actions>
-                  </v-card>
-                </v-dialog>
-              </v-card-actions>
+                
             </v-card>
             </v-timeline-item>
             <v-timeline-item 
@@ -507,37 +544,6 @@
                           >
                               See Bio
                           </v-btn>
-                          <v-card>
-                              <v-card-title 
-                                  class="headline grey lighten-2" 
-                                  primary-title
-                              >
-                                  Paul W. Gwaltney, Jr.
-                              </v-card-title>
-                              <v-card-text>
-                                  <p>
-                                      Paul earned his J.D. from West Virginia 
-                                      College of law in 2003, and joined Taylor Law 
-                                      Office in 2009.
-                                  </p>
-                                  <p>
-                                      Concentrates his practice in the areas of 
-                                      automobile accident defense, insurance 
-                                      coverage, uninsured, and underinsured motorist 
-                                      claims.
-                                  </p>
-                              </v-card-text>
-                              <v-divider></v-divider>
-                              <v-card-actions>
-                                  <v-spacer></v-spacer>
-                                  <v-btn 
-                                      flat 
-                                      @click="dialog2=false"
-                                  >
-                                      Dismiss
-                                  </v-btn>
-                              </v-card-actions>
-                          </v-card>
                       </v-dialog>
                   </v-card-actions>
               </v-card>
@@ -647,66 +653,6 @@
               >
                 2013
               </span>
-              <v-card>
-                <v-card-title class="red lighten-1">
-                  <v-icon
-                    dark
-                    size="42"
-                    class="mr-2"
-                  >
-                    mdi-book-open-page-variant
-                  </v-icon>
-                  <h2 class="white--text font-weight-bold">Tiffany Cropp</h2>
-                </v-card-title>
-                <v-container>
-                <v-layout px-2>
-                  Tiffany earned her J.D. from West Virginia College of law in 2006, and joined Taylor Law Office in 2013. She concentrates her practice in the areas of insurance coverage, declaratory judgment actions, and deliberate intent.
-                </v-layout>
-                </v-container>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-dialog 
-                    v-model="dialog4" 
-                    width="500"
-                  >
-                    <v-btn 
-                      slot="activator" 
-                      flat 
-                      color="blue-grey"
-                    >
-                      See Bio
-                    </v-btn>
-                    <v-card>
-                      <v-card-title 
-                        class="headline grey lighten-2" 
-                        primary-title
-                      >
-                        Tiffany A. Cropp
-                      </v-card-title>
-                      <v-card-text>
-                        <p>
-                          Tiffany earned her J.D. from West Virginia College of law in 
-                          2006, and joined Taylor Law Office in 2013.
-                        </p>
-                        <p>
-                          She concentrates her practice in the areas of insurance 
-                          coverage, declaratory judgment actions, and deliberate intent.
-                        </p>
-                      </v-card-text>
-                      <v-divider></v-divider>
-                      <v-card-actions>
-                        <v-spacer></v-spacer>
-                        <v-btn 
-                          flat 
-                          @click="dialog4=false"
-                        >
-                          Dismiss
-                        </v-btn>
-                      </v-card-actions>
-                    </v-card>
-                  </v-dialog>
-                </v-card-actions>
-              </v-card>
             </v-timeline-item>
         </v-timeline>
       </v-sheet>
