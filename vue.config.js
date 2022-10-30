@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/tlowv/'
+    publicPath: '/tlowv-site/'
 }
