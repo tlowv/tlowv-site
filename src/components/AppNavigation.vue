@@ -65,8 +65,8 @@
             <div class="hidden-sm-and-down ml-3 amber--text font-weight-black">304-225-8529</div>
             <v-btn 
                 round 
-                color="red darken-2" 
-                class="white--text hidden-sm-and-down" 
+                color="amber darken-2" 
+                class="white--text font-weight-black hidden-sm-and-down" 
                 to="/contact"
             >
                 Contact Us
