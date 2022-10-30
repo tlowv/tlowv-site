@@ -10,7 +10,7 @@
                 <p class="mt-3">
                     The primary focus of the practice at Taylor Law Office is 
                     insurance defense litigation. Collectively, our attorneys 
-                    have handled many hundreds of cases for various insurers 
+                    have handled hundreds of cases for various insurers 
                     in all State and Federal jurisdictions throughout West Virginia. 
                     While these cases range in size and complexity, they are all 
                     approached with the same intense focus for providing a superior 

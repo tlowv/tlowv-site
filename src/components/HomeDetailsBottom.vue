@@ -3,33 +3,57 @@
     <v-layout column>
         <v-flex>
           <p class="mt-3">
-            Exceptional service at a reasonable rate with the client's interest always placed first. 
-            Taylor Law Office is committed to this simple principle. In practice, this principle 
-            is exhibited in numerous ways. First, we aggressively defend all cases by tirelessly 
-            investigating and thoroughly developing all viable arguments in our client's favor. 
-            Through discovery, whether written or depositions, our attorneys pursue all angles to 
-            defend our clients. By approaching all cases in this manner, should the case go to trial, 
-            our attorneys are prepared to make the absolute strongest arguments.
+            The focus for Taylor Law Office has remained on insurance defense. We handle
+            cases in all 55 counties, have tried multiple cases throughout West Virginia, and have
+            experience before almost all judges that preside in the Mountain State. The office
+            started with just two insurers and no cases. Since then, the office has litigated almost
+            2,000 cases. The strong book of business that we currently have includes:
           </p>
+          <ul>
+            <li>State Auto Insurance Companies</li>
+            <li>State Farm Insurance Company</li>
+            <li>Nationwide</li>
+            <li>USAA</li>
+            <li>West Virginia National</li>
+            <li>Geico</li>
+          </ul>
         </v-flex>
         <v-flex>
           <p class="mt-3">
-            In addition to quality service, Taylor Law Office is dedicated to providing such 
-            representation at a reasonable price. Not only are Taylor Law Office's hourly rates 
-            reduced as compared to other firms, but most of the costs and expenses associated with 
-            legal representation are not forced upon the insurer. Among other things, this includes 
-            costs for electronic legal research.
+            We handle the basic auto-accident case every day. Additionally, we
+            handle commercial claims for premises liability and construction defects. We also
+            handle complex litigation involving first-party claims against insurers for extra-
+            contractual liability, bad faith, and statutory violations of the West Virginia Unfair Trade
+            Practices Act. We have represented insurers in court and before the West Virginia
+            Insurance Commissioner. We are routinely retained to assist with multi-million-dollar
+            claims involving death, serious injury, and extreme damages. Taylor Law Office is the
+            preferred firm used by the largest convenience store franchise in West Virginia (Go-
+            Mart) and has handled dozens of serious cases prior to and after suit is filed. In
+            addition, we serve as coverage counsel and coverage cases continually make up a
+            sizeable amount of work for the office. Our office also handles property damage claims
+            (water, fire, wind, etc.) against various insurers and we conduct multiple EUOs every
+            year. 
           </p>     
         </v-flex>
         <v-flex>
           <p class="mt-3">
-            Finally, it is the client that is placed at the forefront of all decisions at Taylor 
-            Law Office. From the outset of all cases, our attorneys meet with all clients and 
-            discuss the process involved with civil litigation. This most-basic step develops a 
-            bond with the client that fosters trust and strengthens defenses. In fact, on multiple 
-            occasions, insureds defended by Taylor Law Office attorneys have returned for other 
-            legal needs when issues arise.
+            Our office also has had multiple cases before the West Virginia Supreme Court of
+            Appeals (averaging almost one case per year since opening):
           </p>
+          <ul>
+            <li>Sneberger v. Morrison, 776 S.E.2d 156 (W. Va. 2015)</li>
+            <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co., 799 S.E.2d 550 (W. Va. 2017)</li>
+            <li>Farmers &amp; Mechanics Mut. Ins. Co. v. Allen, 778 S.E.2d 718 (W. Va. 2015)</li>
+            <li>Brickstreet Mut. Ins. Co. v. Zurich Am. Ins. Co., 813 S.E.2d 67 (W. Va. 2018)</li>
+            <li>State ex rel. State Auto Prop. Ins. Cos. v. Stucky, 806 S.E.2d 160 (W. Va. 2017)</li>
+            <li>State Auto Prop. &amp; Cas. Ins. Co. v. Kober (W. Va. 2015)</li>
+            <li>Dolly v. United Disposal Serv. (W. Va. 2020)</li>
+            <li>Am. Nat&#39;l Prop. &amp; Cas. Co. v. Clendenen, 793 S.E.2d 899 (W. Va. 2016)</li>
+            <li>State ex rel. Potomac Trucking &amp; Excavating, Inc. v. Courrier (W. Va. 2016)</li>
+            <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co. (W. Va. 2019)</li>
+            <li>Redman v. Fed. Grp., Inc. (W. Va. 2013)</li>
+            <li>State ex rel State Auto Prop. Ins. Co. v. Stucky (W. Va. 2016)</li>
+          </ul>
         </v-flex>
     </v-layout>
   </v-container>
