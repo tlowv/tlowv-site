@@ -25,7 +25,10 @@
       color="grey lighten-3" 
       class="px-3"
     >
+    <!-- BIG TIMELINE -->
       <v-timeline class="timeline hidden-sm-and-down">
+          
+          <!-- TREVOR TAYLOR -->
           <v-timeline-item color="indigo darken-1">
               <span slot="opposite">
                   <strong>2008 </strong>
@@ -120,6 +123,7 @@
               </v-card>
           </v-timeline-item>
           
+          <!-- CHRIS DENSON -->
           <v-timeline-item color="amber lighten-1">
               <span slot="opposite">
                   <strong>2012 </strong>
@@ -303,132 +307,132 @@
               </v-card>
           </v-timeline-item>
 
-        <!-- Matthew W. Misfeldt  -->
-          <v-timeline-item color="grey darken-1">
-              <span slot="opposite">
-                  <strong>2019 </strong> 
-                  Matthew Misdfeldt Joins TLO
-              </span>
-              <v-card>
-                  <v-card-title class="grey darken-1 justify-end">
-                  <h2 class="display-1 mr-3 white--text font-weight-light">
-                      Matt Misdfeldt
-                  </h2>
-                  <v-icon
-                      dark
-                      size="42"
-                  >
-                      mdi-gavel
-                  </v-icon>
-                  </v-card-title>
-                  <v-container>
-                  <v-layout px-2>
-                      Matt earned his J.D. from the University of Wisconsin Law in 2015, and joined TLO in 2019.
-                      He concentrates his practice in the areas of automobile accident defense,
-                      deliberate intent, insurance coverage, uninsured and underinsured motorist
-                      claims.
-                  </v-layout>
-                  </v-container>
-                  <v-card-actions>
-                      <v-dialog v-model="dialog4" width="500">
-                          <v-btn 
-                              slot="activator" 
-                              flat 
-                              color="blue-grey"
-                          >
-                              See Bio
-                          </v-btn>
-                          <v-card>
-                              <v-card-title 
-                                  class="headline grey lighten-2" 
-                                  primary-title
-                              >
-                                  Tiffany A. Cropp
-                              </v-card-title>
-                              <v-card-text>
-                                  <p>
+            <!-- Matthew W. Misfeldt  -->
+            <v-timeline-item color="grey darken-1">
+                <span slot="opposite">
+                    <strong>2019 </strong> 
+                    Matthew Misdfeldt Joins TLO
+                </span>
+                <v-card>
+                    <v-card-title class="grey darken-1 justify-end">
+                    <h2 class="display-1 mr-3 white--text font-weight-light">
+                        Matt Misdfeldt
+                    </h2>
+                    <v-icon
+                        dark
+                        size="42"
+                    >
+                        mdi-gavel
+                    </v-icon>
+                    </v-card-title>
+                    <v-container>
+                    <v-layout px-2>
+                        Matt earned his J.D. from the University of Wisconsin Law in 2015, and joined TLO in 2019.
+                        He concentrates his practice in the areas of automobile accident defense,
+                        deliberate intent, insurance coverage, uninsured and underinsured motorist
+                        claims.
+                    </v-layout>
+                    </v-container>
+                    <v-card-actions>
+                        <v-dialog v-model="dialog5" width="500">
+                            <v-btn 
+                                slot="activator" 
+                                flat 
+                                color="blue-grey"
+                            >
+                                See Bio
+                            </v-btn>
+                            <v-card>
+                                <v-card-title 
+                                    class="headline grey lighten-2" 
+                                    primary-title
+                                >
+                                    Matthew W. Misfeldt
+                                </v-card-title>
+                                <v-card-text>
+                                    <p>
                                     Tiffany earned her J.D. from West Virginia 
                                     College of law in 2006, and joined Taylor Law 
                                     Office in 2013.
-                                  </p>
-                                  <ul>
+                                    </p>
+                                    <ul>
                                     <li>Admitted to the West Virginia bar, 2006</li>
                                     <li>West Virginia University (B.A., Political Science, 2003)</li>
                                     <li>West Virginia University College of Law (J.D., 2006)</li>
-                                  </ul>
-                                  <p>
+                                    </ul>
+                                    <p>
                                     She concentrates her practice in the areas of 
                                     insurance coverage, declaratory judgment 
                                     actions, and deliberate intent.
-                                  </p>
-                              </v-card-text>
-                              <v-divider></v-divider>
-                              <v-card-actions>
-                                  <v-spacer></v-spacer>
-                                  <v-btn 
-                                      flat 
-                                      @click="dialog4=false"
-                                  >
-                                      Dismiss
-                                  </v-btn>
-                              </v-card-actions>
-                          </v-card>
-                      </v-dialog>
-                  </v-card-actions>
-              </v-card>
-          </v-timeline-item>
+                                    </p>
+                                </v-card-text>
+                                <v-divider></v-divider>
+                                <v-card-actions>
+                                    <v-spacer></v-spacer>
+                                    <v-btn 
+                                        flat 
+                                        @click="dialog4=false"
+                                    >
+                                        Dismiss
+                                    </v-btn>
+                                </v-card-actions>
+                            </v-card>
+                        </v-dialog>
+                    </v-card-actions>
+                </v-card>
+            </v-timeline-item>
 
-        <!-- HAMILTON D. SKEENS  -->
-          <v-timeline-item color="green lighten-1">
-              <span slot="opposite">
-                  <strong>2020 </strong>
-                  Hamilton D. Skeens Joins TLO
-              </span>
-              <v-card>
-                  <v-card-title class="green lighten-1 justify-end">
-                      <h2 class="display-1 mr-3 white--text font-weight-light">
-                          Hamilton D. Skeens
-                      </h2>
-                      <v-icon
-                          dark
-                          size="42"
-                      >
-                          mdi-bank
-                      </v-icon>
-                  </v-card-title>
-                  <v-container>
-                      <v-layout class="px-2">
-                          Concentrates his practice in areas of defense litigation; with particular
-                          emphasis on the defense of complex commercial litigation involving
-                          commercial trucking, construction defect, products liability, premises liability
-                          and lap slip cases
-                      </v-layout>
-                  </v-container>
-                  <v-card-actions>
-                      <v-dialog 
-                          v-model="dialog2" 
-                          width="500"
-                      >
-                          <v-btn 
-                              slot="activator" 
-                              flat 
-                              color="blue-grey"
-                          >
-                              See Bio
-                          </v-btn>
-                          <v-card>
-                              <v-card-title 
-                                  class="headline grey lighten-2" 
-                                  primary-title
-                              >
-                                  Hamilton D. Skeens
-                              </v-card-title>
-                              <v-card-text>
-                                  <p>
-                                      Hamilton was admitted to the West Virginia Bar in 1996, and joined Taylor Law 
-                                      Office in 2020.
-                                  </p>
-                                  <ul>
+            <!-- HAMILTON D. SKEENS  -->
+            <v-timeline-item color="green lighten-1">
+                <span slot="opposite">
+                    <strong>2020 </strong>
+                    Hamilton D. Skeens Joins TLO
+                </span>
+                <v-card>
+                    <v-card-title class="green lighten-1 justify-end">
+                        <h2 class="display-1 mr-3 white--text font-weight-light">
+                            Hamilton D. Skeens
+                        </h2>
+                        <v-icon
+                            dark
+                            size="42"
+                        >
+                            mdi-bank
+                        </v-icon>
+                    </v-card-title>
+                    <v-container>
+                        <v-layout class="px-2">
+                            Concentrates his practice in areas of defense litigation; with particular
+                            emphasis on the defense of complex commercial litigation involving
+                            commercial trucking, construction defect, products liability, premises liability
+                            and lap slip cases
+                        </v-layout>
+                    </v-container>
+                    <v-card-actions>
+                        <v-dialog 
+                            v-model="dialog2" 
+                            width="500"
+                        >
+                            <v-btn 
+                                slot="activator" 
+                                flat 
+                                color="blue-grey"
+                            >
+                                See Bio
+                            </v-btn>
+                            <v-card>
+                                <v-card-title 
+                                    class="headline grey lighten-2" 
+                                    primary-title
+                                >
+                                    Hamilton D. Skeens
+                                </v-card-title>
+                                <v-card-text>
+                                    <p>
+                                        Hamilton was admitted to the West Virginia Bar in 1996, and joined Taylor Law 
+                                        Office in 2020.
+                                    </p>
+                                    <ul>
                                     <li>District Court for the Northern District of West Virginia, 1996</li>
                                     <li>District Court for the Southern District of West Virginia, 1996</li>
                                     <li>Admitted to the North Carolina bar, 2004</li>
@@ -436,223 +440,332 @@
                                     <li>Regent University (M.B.A., 1997)</li>
                                     <li>West Virginia University College of Law (J.D., 1996)</li>
                                     <li>Covington v. Smith, 213 W. Va. 309, 582 S.E.2d. 756 (2003)</li>
-                                  </ul>
-                                  <br />
-                                  <p>
-                                      Concentrates his practice in the areas of 
-                                      automobile accident defense, insurance 
-                                      coverage, uninsured, and underinsured motorist 
-                                      claims.
-                                  </p>
-                              </v-card-text>
-                              <v-divider></v-divider>
-                              <v-card-actions>
-                                  <v-spacer></v-spacer>
-                                  <v-btn 
-                                      flat 
-                                      @click="dialog2=false"
-                                  >
-                                      Dismiss
-                                  </v-btn>
-                              </v-card-actions>
-                          </v-card>
-                      </v-dialog>
-                  </v-card-actions>
-              </v-card>
-          </v-timeline-item>
+                                    </ul>
+                                    <br />
+                                    <p>
+                                        Concentrates his practice in the areas of 
+                                        automobile accident defense, insurance 
+                                        coverage, uninsured, and underinsured motorist 
+                                        claims.
+                                    </p>
+                                </v-card-text>
+                                <v-divider></v-divider>
+                                <v-card-actions>
+                                    <v-spacer></v-spacer>
+                                    <v-btn 
+                                        flat 
+                                        @click="dialog2=false"
+                                    >
+                                        Dismiss
+                                    </v-btn>
+                                </v-card-actions>
+                            </v-card>
+                        </v-dialog>
+                    </v-card-actions>
+                </v-card>
+            </v-timeline-item>
 
-      </v-timeline>
+        </v-timeline>
+
+        <!-- SMALL TIMELINE -->
         <v-timeline 
-          dense 
-          class="hidden-md-and-up"
+            dense 
+            class="hidden-md-and-up"
         >
-          <v-timeline-item 
-            fill-dot 
-            large 
-            color="indigo darken-1"
-          >
-            <span 
-              class="white--text font-weight-black" 
-              slot="icon"
-            >
-              2008
-            </span>
-            <v-card>
-                <v-card-title class="indigo darken-1">
-                  <v-icon
-                    dark
-                    size="42"
-                    class="mr-2"
-                  >
-                    mdi-gavel
-                  </v-icon>
-                  <h2 class="font-weight-bold white--text">Trevor Taylor</h2>
-                </v-card-title>
-                <v-container>
-                  <v-layout class="px-2">
-                    Trevor's primary litigation focus is dedicated to Civil 
-                    Defense in areas including, but not limited to coverage 
-                    determinations; security, hotel, and airport/airplane 
-                    liability; deliberate intent, and wrongful death.
-                  </v-layout>
-                </v-container>
+            <!-- TREVOR TAYLOR SMALL -->
+            <v-timeline-item 
+                fill-dot 
+                large 
+                color="indigo darken-1"
+                >
+                <span 
+                    class="white--text font-weight-black" 
+                    slot="icon"
+                >
+                    2008
+                </span>
+                <v-card>
+                    <v-card-title class="indigo darken-1">
+                        <v-icon
+                        dark
+                        size="42"
+                        class="mr-2"
+                        >
+                        mdi-gavel
+                        </v-icon>
+                        <h2 class="font-weight-bold white--text">Trevor Taylor</h2>
+                    </v-card-title>
+                    <v-container>
+                        <v-layout class="px-2">
+                        Trevor's primary litigation focus is dedicated to Civil 
+                        Defense in areas including, but not limited to coverage 
+                        determinations; security, hotel, and airport/airplane 
+                        liability; deliberate intent, and wrongful death.
+                        </v-layout>
+                        <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <v-dialog 
+                                v-model="dialog1" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
+                            </v-dialog>
+                        </v-card-actions>
+                    </v-container>   
+                </v-card>
+            </v-timeline-item>
                 
-            </v-card>
-            </v-timeline-item>
+            <!-- CHRIS DENSON SMALL -->
             <v-timeline-item 
-              fill-dot 
-              large 
-              color="green lighten-1"
+                fill-dot 
+                large 
+                color="amber lighten-1"
             >
-              <span 
+                <span 
                 class="white--text font-weight-black" 
                 slot="icon"
-              >
-                2009
-              </span>
-              <v-card>
-                  <v-card-title class="green lighten-1">
-                      <v-icon
-                          dark
-                          size="42"
-                          class="mr-2"
-                      >
-                          mdi-bank
-                      </v-icon>
-                      <h2 class="font-weight-bold white--text">Paul Gwaltney</h2>
-                  </v-card-title>
-                  <v-container>
-                      <v-layout 
-                          class="px-2"
-                      >
-                          Paul focus his practice on uninsured or underinsured 
-                          motorists, premises liability, serious injury and wrongful 
-                          death, with bar admissions to West Virginia, U.S. District 
-                          Courts for Southern and Northern districts.
-                      </v-layout>
-                  </v-container>
-                  <v-card-actions>
-                      <v-spacer></v-spacer>
-                      <v-dialog 
-                          v-model="dialog2" 
-                          width="500"
-                      >
-                          <v-btn 
-                              slot="activator" 
-                              flat 
-                              color="blue-grey"
-                          >
-                              See Bio
-                          </v-btn>
-                      </v-dialog>
-                  </v-card-actions>
-              </v-card>
+                >
+                    2012
+                </span>
+                <v-card>
+                    <v-card-title class="amber darken-1">
+                        <v-icon
+                            class="mr-2"
+                            dark
+                            size="42"
+                        >
+                            mdi-scale-balance
+                        </v-icon>
+                        <h2 class="white--text font-weight-bold">Chris Denson</h2>
+                    </v-card-title>
+                    <v-container>
+                        <v-layout class="px-2">
+                            Chris Denson concentrates his practice in the areas of general litigation, 
+                            insurance coverage and extra-contractual defense, personal injury, wrongful 
+                            death, products liability, property damage claims, and construction law. 
+                            Mr. Denson's practice involves reviewing insurance policies, researching 
+                            insurance coverage issues, drafting coverage opinions, representing clients 
+                            in coverage disputes, representing clients in "bad faith" or other 
+                            extra-contractual claims. Mr. Denson also represents clients in fraud and 
+                            arson cases involving insurance matters.
+                        </v-layout>
+                    </v-container>
+                    <v-card-actions>
+                        <v-spacer></v-spacer>
+                        <v-dialog 
+                            v-model="dialog3" 
+                            width="500"
+                        >
+                            <v-btn 
+                                slot="activator" 
+                                flat 
+                                color="blue-grey"
+                            >
+                                See Bio
+                            </v-btn>
+                            <v-card>
+                                <v-card-title 
+                                    class="headline grey lighten-2" 
+                                    primary-title
+                                >
+                                    Christopher B. Denson
+                                </v-card-title>
+                                <v-card-text>
+                                    <p>
+                                        Chris earned his J.D. from Widener University in 1999, and joined Taylor Law Office in 2012.
+                                    </p>
+                                    <p>
+                                        His representative experience includes defending the largest major convenience store 
+                                        chains in West Virginia, the handling of numerous large exposure property damage/fire 
+                                        loss claims on behalf of insurers, representing drilling companies in defense of wrongful 
+                                        death and deliberate intent claims arising out of incidents occurring on well sites.  
+                                        He's also defended engineers, real estate companies, brokers and agents in professional 
+                                        liability matters, as well as timbering, manufacturing, and energy clients in deliberate 
+                                        intent cases involving serious injury or death.
+                                    </p>
+                                    <p>
+                                        Chris has represented insurance companies before the West Virginia Insurance Commissioner 
+                                        on administrative first and third party claims associated with alleged violations of 
+                                        the West Virginia Unfair Trade Practices Act, and has trial experience with cases 
+                                        ranging from deliberate intent, wrongful death, and serious personal injury.  He also 
+                                        serves as a member of The Defense Trial Counsel of West Virginia.
+                                    </p>
+                                    <p>
+                                        He's previously been Co-Chair of the construction division for the United Way of Harrison County, 
+                                        and a past member of the American Red Cross North Center WV Board of Directors.
+                                    </p>
+                                </v-card-text>
+                                <v-divider></v-divider>
+                                <v-card-actions>
+                                    <v-spacer></v-spacer>
+                                    <v-btn 
+                                        flat 
+                                        @click="dialog3=false"
+                                    >
+                                        Dismiss
+                                    </v-btn>
+                                </v-card-actions>
+                            </v-card>
+                        </v-dialog>
+                    </v-card-actions>
+                </v-card>
             </v-timeline-item>
+
+            <!-- TIFFANY CROPP SMALL -->
             <v-timeline-item 
-              fill-dot 
-              large 
-              color="amber lighten-1"
+                fill-dot 
+                large 
+                color="red lighten-1"
             >
-              <span 
+                <span 
                 class="white--text font-weight-black" 
                 slot="icon"
-              >
-                  2012
-              </span>
-              <v-card>
-                  <v-card-title class="amber darken-1">
-                      <v-icon
-                          class="mr-2"
-                          dark
-                          size="42"
-                      >
-                          mdi-scale-balance
-                      </v-icon>
-                      <h2 class="white--text font-weight-bold">Chris Denson</h2>
-                  </v-card-title>
-                  <v-container>
-                      <v-layout class="px-2">
-                          Chris Denson concentrates his practice in the areas of general litigation, 
-                          insurance coverage and extra-contractual defense, personal injury, wrongful 
-                          death, products liability, property damage claims, and construction law. 
-                          Mr. Denson's practice involves reviewing insurance policies, researching 
-                          insurance coverage issues, drafting coverage opinions, representing clients 
-                          in coverage disputes, representing clients in "bad faith" or other 
-                          extra-contractual claims. Mr. Denson also represents clients in fraud and 
-                          arson cases involving insurance matters.
-                      </v-layout>
-                  </v-container>
-                  <v-card-actions>
-                      <v-spacer></v-spacer>
-                      <v-dialog 
-                          v-model="dialog3" 
-                          width="500"
-                      >
-                          <v-btn 
-                              slot="activator" 
-                              flat 
-                              color="blue-grey"
-                          >
-                              See Bio
-                          </v-btn>
-                          <v-card>
-                              <v-card-title 
-                                  class="headline grey lighten-2" 
-                                  primary-title
-                              >
-                                  Christopher B. Denson
-                              </v-card-title>
-                              <v-card-text>
-                                  <p>
-                                      Chris earned his J.D. from Widener University in 1999, and joined Taylor Law Office in 2012.
-                                  </p>
-                                  <p>
-                                      His representative experience includes defending the largest major convenience store 
-                                      chains in West Virginia, the handling of numerous large exposure property damage/fire 
-                                      loss claims on behalf of insurers, representing drilling companies in defense of wrongful 
-                                      death and deliberate intent claims arising out of incidents occurring on well sites.  
-                                      He's also defended engineers, real estate companies, brokers and agents in professional 
-                                      liability matters, as well as timbering, manufacturing, and energy clients in deliberate 
-                                      intent cases involving serious injury or death.
-                                  </p>
-                                  <p>
-                                      Chris has represented insurance companies before the West Virginia Insurance Commissioner 
-                                      on administrative first and third party claims associated with alleged violations of 
-                                      the West Virginia Unfair Trade Practices Act, and has trial experience with cases 
-                                      ranging from deliberate intent, wrongful death, and serious personal injury.  He also 
-                                      serves as a member of The Defense Trial Counsel of West Virginia.
-                                  </p>
-                                  <p>
-                                      He's previously been Co-Chair of the construction division for the United Way of Harrison County, 
-                                      and a past member of the American Red Cross North Center WV Board of Directors.
-                                  </p>
-                              </v-card-text>
-                              <v-divider></v-divider>
-                              <v-card-actions>
-                                  <v-spacer></v-spacer>
-                                  <v-btn 
-                                      flat 
-                                      @click="dialog3=false"
-                                  >
-                                      Dismiss
-                                  </v-btn>
-                              </v-card-actions>
-                          </v-card>
-                      </v-dialog>
-                  </v-card-actions>
-              </v-card>
-            </v-timeline-item>
-            <v-timeline-item 
-              fill-dot 
-              large 
-              color="red lighten-1"
-            >
-              <span 
-                class="white--text font-weight-black" 
-                slot="icon"
-              >
+                >
                 2013
-              </span>
+                </span>
+                <v-card>
+                    <v-card-title class="red lighten-1">
+                        <v-icon
+                            dark
+                            size="42"
+                            class="mr-2"
+                        >
+                            mdi-bank
+                        </v-icon>
+                        <h2 class="font-weight-bold white--text">Tiffany Cropp</h2>
+                    </v-card-title>
+                    <v-container>
+                        <v-layout 
+                            class="px-2"
+                        >
+                            Tiffany earned her J.D. from West Virginia College of law in 2006, 
+                            and joined Taylor Law Office in 2013. She concentrates her practice 
+                            in the areas of insurance coverage, declaratory judgment 
+                            actions, and deliberate intent.
+                        </v-layout>
+                    </v-container>
+                    <v-card-actions>
+                        <v-spacer></v-spacer>
+                        <v-dialog 
+                            v-model="dialog4" 
+                            width="500"
+                        >
+                            <v-btn 
+                                slot="activator" 
+                                flat 
+                                color="blue-grey"
+                            >
+                                See Bio
+                            </v-btn>
+                        </v-dialog>
+                    </v-card-actions>
+                </v-card>
+            </v-timeline-item>
+
+            <!-- MATT MISFELDT SMALL -->
+            <v-timeline-item 
+                fill-dot 
+                large 
+                color="grey darken-1"
+                >
+                <span 
+                    class="white--text font-weight-black" 
+                    slot="icon"
+                >
+                    2019
+                </span>
+                <v-card>
+                    <v-card-title class="grey darken-1">
+                        <v-icon
+                        dark
+                        size="42"
+                        class="mr-2"
+                        >
+                        mdi-gavel
+                        </v-icon>
+                        <h2 class="font-weight-bold white--text">Matt Misfeldt</h2>
+                    </v-card-title>
+                    <v-container>
+                        <v-layout class="px-2">
+                            Matt earned his J.D. from the University of Wisconsin Law in 2015, 
+                            and joined TLO in 2019. He concentrates his practice in the 
+                            areas of automobile accident defense, deliberate intent, 
+                            insurance coverage, uninsured and underinsured motorist claims. 
+                        </v-layout>
+                        <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <v-dialog 
+                                v-model="dialog5" 
+                                width="500"
+                            >
+                                <v-btn 
+                                    slot="activator" 
+                                    flat 
+                                    color="blue-grey"
+                                >
+                                    See Bio
+                                </v-btn>
+                            </v-dialog>
+                        </v-card-actions>
+                    </v-container>   
+                </v-card>
+            </v-timeline-item>
+
+            <!-- HAMILTON SKEENS SMALL -->
+            <v-timeline-item 
+                fill-dot 
+                large 
+                color="green lighten-1"
+            >
+                <span 
+                class="white--text font-weight-black" 
+                slot="icon"
+                >
+                2020
+                </span>
+                <v-card>
+                    <v-card-title class="green lighten-1">
+                        <v-icon
+                            dark
+                            size="42"
+                            class="mr-2"
+                        >
+                            mdi-bank
+                        </v-icon>
+                        <h2 class="font-weight-bold white--text">Hamilton Skeens</h2>
+                    </v-card-title>
+                    <v-container>
+                        <v-layout 
+                            class="px-2"
+                        >
+                            Hamilton concentrates his practice in areas of defense litigation; 
+                            with particular emphasis on the defense of complex commercial 
+                            litigation involving commercial trucking, construction defect, 
+                            products liability, premises liability and lap slip cases.
+                        </v-layout>
+                    </v-container>
+                    <v-card-actions>
+                        <v-spacer></v-spacer>
+                        <v-dialog 
+                            v-model="dialog2" 
+                            width="500"
+                        >
+                            <v-btn 
+                                slot="activator" 
+                                flat 
+                                color="blue-grey"
+                            >
+                                See Bio
+                            </v-btn>
+                        </v-dialog>
+                    </v-card-actions>
+                </v-card>
             </v-timeline-item>
         </v-timeline>
       </v-sheet>
@@ -683,7 +796,8 @@ export default {
         dialog1: false,
         dialog2: false,
         dialog3: false,
-        dialog4: false
+        dialog4: false,
+        dialog5: false
     })
 };
 </script>
