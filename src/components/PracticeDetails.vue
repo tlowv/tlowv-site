@@ -32,7 +32,7 @@
             <v-flex xs12>
                 <v-card elevation=10>
                     <v-img 
-                        src="https://i.imgur.com/PSKqpO6.jpg" 
+                        src="https://i.imgur.com/Jzyg0d7.jpg" 
                         height="400px"
                     >
                         <v-container 
@@ -52,33 +52,20 @@
                     </v-img>
                     <v-card-title primary-title>
                         <p class="my-2">
-                            Insurance defense in West Virginia is both complex and precarious. 
-                            Moreover, the legal environment in West Virginia can present serious 
-                            challenges to insurers operating in our state. For over a decade, 
-                            the attorneys at Taylor Law Office have successfully assisted West 
-                            Virginia insurers meet those challenges. For instance, Taylor Law 
-                            Office is often used for resolving minor issues that insurers confront 
-                            daily. By conducting examinations under oath and obtaining sworn statements, 
-                            Taylor Law Office is frequently utilized to determine what defenses or 
-                            coverages are potentially applicable based upon the facts of a particular 
-                            case. We are regularly used to file for court approval of minor settlements, 
-                            settlements in wrongful death actions, and for judicial disbursement of insurance proceeds.                            
+                            The focus for Taylor Law Office has remained on insurance defense. We handle
+                            cases in all 55 counties, have tried multiple cases throughout West Virginia, and have
+                            experience before almost all judges that preside in the Mountain State. The office
+                            started with just two insurers and no cases. Since then, the office has litigated almost
+                            2,000 cases. The strong book of business that we currently have includes:                            
                         </p>
-                        <p class="my-2">
-                            In addition to assisting with the smaller matters that frequently arise for insurers, 
-                            Taylor Law Office handles all types of major litigation. We routinely litigate cases 
-                            involving auto-accidents, claims of premises liability, and construction defect claims. 
-                            Taylor Law Office represents some of the largest convenience store chains and businesses 
-                            in West Virginia. Our office has extensive experience with workplace accident cases 
-                            involving West Virginia's statutory employer immunity provisions for "deliberate intent."
-                        </p>
-                        <p class="my-2">
-                            This experience has forged strong relationships with Federal and State agencies, 
-                            as well as with the finest experts. Additionally, we frequently handle first-party 
-                            cases involving West Virginia's complex underinsured and uninsured motorist's laws. 
-                            Finally, Taylor Law Office is regularly employed for complex coverage determinations 
-                            that involve issuing coverage opinions, filing declaratory judgment actions, and 
-                            intervening for a judicial determination regarding coverage.
+                        <ul>
+                            <li>State Auto Insurance Companies</li>
+                            <li>State Farm Insurance Company</li>
+                            <li>Nationwide</li>
+                            <li>USAA</li>
+                            <li>West Virginia National</li>
+                            <li>Geico</li>
+                        </ul>
                         </p>
                     </v-card-title>
                 </v-card>
@@ -182,12 +169,16 @@
         </v-layout>
         <v-layout row nowrap style="max-width: 700px; margin: 0 auto;">
             <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
-                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Cras pulvinar risus quis mauris interdum, in euismod nibh 
-                        pretium. Etiam pulvinar tincidunt dapibus. Quisque 
-                        sollicitudin, mauris a consequat consectetur, turpis nisl 
-                        sollicitudin enim, id consectetur neque neque nec metus. </p>
+                <div class="headline mt-3">Trusted by all of our clients</div>
+                <p class="mt-3">We are routinely retained to assist with multi-million-dollar
+                    claims involving death, serious injury, and extreme damages. Taylor Law Office is the
+                    referred firm used by the largest convenience store franchise in West Virginia (Go-
+                    Mart) and has handled dozens of serious cases prior to and after suit is filed. In
+                    addition, we serve as coverage counsel and coverage cases continually make up a
+                    sizeable amount of work for the office. Our office also handles property damage claims
+                    (water, fire, wind, etc.) against various insurers and we conduct multiple EUOs every
+                    year.
+                </p>
             </v-flex>
         </v-layout>
     </v-container>

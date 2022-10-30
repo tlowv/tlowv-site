@@ -38,12 +38,6 @@ export default new Router({
             component: () => import('./views/Contact.vue'),
             meta: { title: 'Contact Us - Taylor Law Office' }
         },
-        {
-            path: '/sandbox',
-            name: 'sandbox',
-            component: () => import('./views/Sandbox.vue'),
-            meta: { title: 'Sandbox - Taylor Law Office' }
-        }
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {

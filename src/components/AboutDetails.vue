@@ -4,25 +4,42 @@
             <v-flex>
                 <div class="headline mt-3">Quality</div>
                 <p class="mt-3">
-                    Taylor Law Office is a Morgantown-based firm specializing in insurance 
-                    defense litigation. Whether it is minor matters, or complex litigation, 
-                    Taylor Law Office approaches all cases with the same goal - quality 
-                    representation for the client at a reasonable price.
-                </p>
+                    We handle the basic auto-accident case every day. Additionally, we
+                    handle commercial claims for premises liability and construction defects. We also
+                    handle complex litigation involving first-party claims against insurers for extra-
+                    contractual liability, bad faith, and statutory violations of the West Virginia Unfair Trade
+                    Practices Act. We have represented insurers in court and before the West Virginia
+                    Insurance Commissioner. We are routinely retained to assist with multi-million-dollar
+                    claims involving death, serious injury, and extreme damages. Taylor Law Office is the
+                    preferred firm used by the largest convenience store franchise in West Virginia (Go-
+                    Mart) and has handled dozens of serious cases prior to and after suit is filed. In
+                    addition, we serve as coverage counsel and coverage cases continually make up a
+                    sizeable amount of work for the office. Our office also handles property damage claims
+                    (water, fire, wind, etc.) against various insurers and we conduct multiple EUOs every
+                    year. 
+                </p>     
             </v-flex>
-            <v-flex class="blue-background">
-                <div class="headline mt-3">Value</div>
+            <v-flex>
                 <p class="mt-3">
-                    At Taylor Law Office, we are dedicated to providing a superior level 
-                    of service to represent the multiple interests present in defending civil 
-                    litigation in West Virginia. In order to do this, we have developed the Taylor 
-                    Theorem that is based on three principles -- Exceptional Service, Reasonable Costs, 
-                    and Responsive Action. Abiding by these principles ensures that we provide personal 
-                    and dedicated service from experienced legal counsel that aggressively defends 
-                    West Virginia insureds, at a cost that is far lower than larger firms.
+                    Our office also has had multiple cases before the West Virginia Supreme Court of
+                    Appeals (averaging almost one case per year since opening):
                 </p>
-                
+                <ul>
+                    <li>Sneberger v. Morrison, 776 S.E.2d 156 (W. Va. 2015)</li>
+                    <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co., 799 S.E.2d 550 (W. Va. 2017)</li>
+                    <li>Farmers &amp; Mechanics Mut. Ins. Co. v. Allen, 778 S.E.2d 718 (W. Va. 2015)</li>
+                    <li>Brickstreet Mut. Ins. Co. v. Zurich Am. Ins. Co., 813 S.E.2d 67 (W. Va. 2018)</li>
+                    <li>State ex rel. State Auto Prop. Ins. Cos. v. Stucky, 806 S.E.2d 160 (W. Va. 2017)</li>
+                    <li>State Auto Prop. &amp; Cas. Ins. Co. v. Kober (W. Va. 2015)</li>
+                    <li>Dolly v. United Disposal Serv. (W. Va. 2020)</li>
+                    <li>Am. Nat&#39;l Prop. &amp; Cas. Co. v. Clendenen, 793 S.E.2d 899 (W. Va. 2016)</li>
+                    <li>State ex rel. Potomac Trucking &amp; Excavating, Inc. v. Courrier (W. Va. 2016)</li>
+                    <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co. (W. Va. 2019)</li>
+                    <li>Redman v. Fed. Grp., Inc. (W. Va. 2013)</li>
+                    <li>State ex rel State Auto Prop. Ins. Co. v. Stucky (W. Va. 2016)</li>
+                </ul>
             </v-flex>
+            
             <v-flex>
                 <div class="headline mt-3">Service</div>
                 <p class="mt-3">

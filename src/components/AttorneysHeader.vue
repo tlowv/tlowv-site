@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .attorneys-header {
-    background: url('https://i.imgur.com/rbNhtac.jpg');
+    background: url('https://i.imgur.com/86YC7h4.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;

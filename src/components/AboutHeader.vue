@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .about-header {
-    background: url('https://i.imgur.com/fyQGU1u.jpg');
+    background: url('https://i.imgur.com/qrrjo2L.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;

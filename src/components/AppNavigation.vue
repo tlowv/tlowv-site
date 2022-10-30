@@ -30,7 +30,7 @@
                 @click="drawer = !drawer"
             ></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
-            <div class="hidden-md-and-up ml-3 red--text font-weight-black">Call: 304-225-8529</div>
+            <div class="hidden-md-and-up ml-3 amber--text darken-2 font-weight-black">Call: 304-225-8529</div>
             <router-link to="/">
                 <v-toolbar-title @click="$vuetify.goTo('#top')">
                     <img class="brand-logo" src="https://i.imgur.com/vdgnQ4f.png" alt="tlo brand">
@@ -52,9 +52,17 @@
             >
                 Practice
             </v-btn>
+            <v-btn 
+                flat 
+                round 
+                class="hidden-sm-and-down" 
+                to="/about"
+            >
+            about
+            </v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <div class="hidden-sm-and-down">330 Scott Ave, Suite 3 | Morgantown, WV 26508</div>
-            <div class="hidden-sm-and-down ml-3 red--text font-weight-black">304-225-8529</div>
+            <div class="hidden-sm-and-down ml-3 amber--text font-weight-black">304-225-8529</div>
             <v-btn 
                 round 
                 color="red darken-2" 
