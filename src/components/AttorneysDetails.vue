@@ -10,12 +10,12 @@
                 <p class="mt-3">
                     The primary focus of the practice at Taylor Law Office is 
                     insurance defense litigation. Collectively, our attorneys 
-                    have handled hundreds of cases for various insurers 
+                    have handled thousands of cases for various insurers 
                     in all State and Federal jurisdictions throughout West Virginia. 
                     While these cases range in size and complexity, they are all 
                     approached with the same intense focus for providing a superior 
                     product. The relative small size of Taylor Law Office provides 
-                    inherent advantages to insurers concerned with who and how 
+                    inherent advantages to insurers concerned with the mechanics for how 
                     cases are being handled. 
                 </p>
             </v-flex>
@@ -50,7 +50,8 @@
                   </v-card-title>
                   <v-container>
                       <v-layout class="px-2">
-                          Concentrates practice in areas of insurance defense, appeals, insurance
+                          In addition to maintaining an active and vigorous trial practice, Trevor Taylor focuses his 
+                          practice in areas of insurance defense, appeals, insurance
                           coverage, wrongful death defense, defense of first-party insurance claims, extra-
                           contractual defense of insurers, products liability, first-party and third-party pre-litigation 
                           investigations and examinations under oath, property damage defense,
@@ -101,7 +102,8 @@
                                     <li>State ex rel. Potomac Trucking &amp; Excavating, Inc. v. Courrier (W. Va. 2016)</li>
                                     <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co. (W. Va. 2019)</li>
                                     <li>Redman v. Fed. Grp., Inc. (W. Va. 2013)</li>
-                                    <li>State ex rel State Auto Prop. Ins. Co. v. Stucky (W. Va. 2016)</li><br />
+                                    <li>State ex rel State Auto Prop. Ins. Co. v. Stucky (W. Va. 2016)</li>
+                                    <li>State ex rel Hope Clinic, PLLC v. McGraw, 858 S.E.2d (W. Va. 2021)</li>
                                   </ul>
                                   <p>
                                       
@@ -351,9 +353,7 @@
                                 </v-card-title>
                                 <v-card-text>
                                     <p>
-                                    Tiffany earned her J.D. from West Virginia 
-                                    College of law in 2006, and joined Taylor Law 
-                                    Office in 2013.
+                                    Matt earned his J.D. from the University of Wisconsin Law in 2015, and joined TLO in 2019.
                                     </p>
                                     <ul>
                                     <li>Admitted to the West Virginia bar, 2006</li>
@@ -497,10 +497,14 @@
                     </v-card-title>
                     <v-container>
                         <v-layout class="px-2">
-                        Trevor's primary litigation focus is dedicated to Civil 
-                        Defense in areas including, but not limited to coverage 
-                        determinations; security, hotel, and airport/airplane 
-                        liability; deliberate intent, and wrongful death.
+                        In addition to maintaining an active and vigorous trial practice, Trevor Taylor focuses his 
+                          practice in areas of insurance defense, appeals, insurance
+                          coverage, wrongful death defense, defense of first-party insurance claims, extra-
+                          contractual defense of insurers, products liability, first-party and third-party pre-litigation 
+                          investigations and examinations under oath, property damage defense,
+                          commercial defense, defense of insurers before the West Virginia Insurance
+                          Commissioner, trucking and commercial carrier defense, personal and bodily
+                          injury defense, and defense of mass litigation and toxic tort claims.
                         </v-layout>
                         <v-card-actions>
                             <v-spacer></v-spacer>

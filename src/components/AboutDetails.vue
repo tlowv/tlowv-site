@@ -10,13 +10,13 @@
                     contractual liability, bad faith, and statutory violations of the West Virginia Unfair Trade
                     Practices Act. We have represented insurers in court and before the West Virginia
                     Insurance Commissioner. We are routinely retained to assist with multi-million-dollar
-                    claims involving death, serious injury, and extreme damages. Taylor Law Office is the
-                    preferred firm used by the largest convenience store franchise in West Virginia (Go-
-                    Mart) and has handled dozens of serious cases prior to and after suit is filed. In
+                    claims involving death, serious injury, and extreme damages. Taylor Law Office is routinely retained
+                    by the largest convenience store franchise in West Virginia (Go Mart) and has 
+                    handled dozens of serious cases prior to and after suit is filed. In
                     addition, we serve as coverage counsel and coverage cases continually make up a
                     sizeable amount of work for the office. Our office also handles property damage claims
-                    (water, fire, wind, etc.) against various insurers and we conduct multiple EUOs every
-                    year. 
+                    (water, fire, wind, etc.) against various insurers and we conduct multiple examinsations under oath
+                    every year. 
                 </p>     
             </v-flex>
             <v-flex>

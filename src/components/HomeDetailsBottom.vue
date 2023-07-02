@@ -4,10 +4,10 @@
         <v-flex>
           <p class="mt-3">
             The focus for Taylor Law Office has remained on insurance defense. We handle
-            cases in all 55 counties, have tried multiple cases throughout West Virginia, and have
-            experience before almost all judges that preside in the Mountain State. The office
-            started with just two insurers and no cases. Since then, the office has litigated almost
-            2,000 cases. The strong book of business that we currently have includes:
+            cases in all 55 counties, have tried cases throughout West Virginia, and have
+            experience before almost all judges that preside in the Mountain State. 
+            Since the office opened in 2007, we have litigated thousands of cases. These 
+            clients we haev represented include:
           </p>
           <ul>
             <li>State Auto Insurance Companies</li>
@@ -16,6 +16,12 @@
             <li>USAA</li>
             <li>West Virginia National</li>
             <li>Geico</li>
+            <li>Cincinnati Insurance</li>
+            <li>Liberty Mutual</li>
+            <li>Milbank Insurance</li>
+            <li>Great American Insurance</li>
+            <li>Markel</li>
+            <li>National Insurance</li>
           </ul>
         </v-flex>
         <v-flex>

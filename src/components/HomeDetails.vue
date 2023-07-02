@@ -10,30 +10,27 @@
     >
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-2">mdi-scale-balance</v-icon>
-        <h1 class="display-1 text-xs-center mt-4">Fair</h1>
+        <h1 class="display-1 text-xs-center mt-4">Experienced</h1>
         <p class="subheading text-xs-center my-3">
-          Taylor Law Office provides extremely effective service for a very reasonable, 
-          competitive price.  Quality defense for a fair price.
+          With decades of legal experience in both State and Federal Court across WV, TLO can address all unique defense needs.
         </p>
-        <a class="text-xs-center" href="/contact">Contact us today for a quote.</a>
+        <a class="text-xs-center" href="/attorneys">Meet out team.</a>
       </v-flex>
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-2">mdi-gavel</v-icon>
         <h1 class="display-1 text-xs-center mt-4">Effective</h1>
         <p class="subheading text-xs-center my-3">
-          Whether through trial victories or settlement negotiations, our clients 
-          experience a satisfaction rate of over 95%.
+          Whether through trial, motion practice, or appeals, providing exceptional and extraordinary results remains TLO's driving goal.
         </p>
-        <a class="text-xs-center" href="/attorneys">Learn why our attorneys are so effective.</a>
+        <a class="text-xs-center" href="/about">Learn more about TLO.</a>
       </v-flex>
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-2">mdi-book-open-page-variant</v-icon>
         <h1 class="display-1 text-xs-center mt-4">Knowledgeable</h1>
         <p class="subheading text-xs-center my-3">
-          With years of experience across many different practice areas, you can bet 
-          that we've seen almost everything.  This experience is priceless.
+          Understanding West Virginia Law, venues, and population shapes the defense strategy used by our attorneys.
         </p>
-        <a class="text-xs-center" href="/practice">See which areas we specialize in.</a>
+        <a class="text-xs-center" href="/practice">See our practice areas.</a>
       </v-flex>
     </v-layout>
   </v-container>

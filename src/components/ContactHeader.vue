@@ -17,9 +17,9 @@ export default {
 
 <style scoped>
 .contact-header {
-    background: url('https://i.imgur.com/94ptLNm.jpg');
+    background: url('https://i.imgur.com/gPwBEYR.jpg');
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    background-position: 90% 20%;
+    
 }
 </style>

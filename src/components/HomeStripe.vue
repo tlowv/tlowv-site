@@ -4,13 +4,11 @@
     fill-height
     class="midpage-banner mt-5"
   >
-    <v-layout column py-5 class="hidden-sm-and-up">
-      <h1 class="outline-text white--text font-weight-black mb-3">Insurance defense is our focus</h1>
-      <h3 class="outline-text white--text">with a strong book of busniess including State Auto, State Farm, and Nationwide</h3>
+    <v-layout column py-0 class="hidden-sm-and-up">
+      <h1 class="outline-text white--text font-weight-black mb-3">Insurance defense and representing insureds is our focus</h1>
     </v-layout>
     <v-layout column py-5 class="hidden-xs-only">
-      <div class="outline-text display-3 white--text font-weight-black mb-3">Insurance defense is our focus</div>
-      <h2 class="outline-text display-1 white--text">with a strong book of busniess including State Auto, State Farm, and Nationwide</h2>
+      <div class="outline-text display-3 white--text font-weight-black mb-3">Insurance defense and representing insureds is our focus</div>
     </v-layout>
   </v-container>
 </template>
@@ -28,6 +26,6 @@ export default {
     background-position: 20% center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 35vh;
+    height: 30vh;
 }
 </style>
