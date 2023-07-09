@@ -311,7 +311,8 @@
                             Whether it be losses causeed by storms, water, or fire, Taylor Law Office regularly assists carriers in
                             West Virginia with the investigation process so an informed decision can be reached regarding coverage.  
                             Taylor Law Office has assisted with insurers that require examinations under oath be performed and evidence
-                            gathered from local
+                            gathered from local authorities for proper handling of claims pursuant to the West Virginia
+                            insurance regulations.
                         </p>
                         
                     </v-card-title>

@@ -356,14 +356,12 @@
                                     Matt earned his J.D. from the University of Wisconsin Law in 2015, and joined TLO in 2019.
                                     </p>
                                     <ul>
-                                    <li>Admitted to the West Virginia bar, 2006</li>
-                                    <li>West Virginia University (B.A., Political Science, 2003)</li>
-                                    <li>West Virginia University College of Law (J.D., 2006)</li>
+                                    <li>Admitted to the West Virginia bar, 2018</li>
+                                    <li>B.S. in Psychology from the University of Wisconsin, 2011</li>
                                     </ul>
                                     <p>
-                                    She concentrates her practice in the areas of 
-                                    insurance coverage, declaratory judgment 
-                                    actions, and deliberate intent.
+                                    Matt concentrates his practice primarily in the area of 
+                                    insurance coverage.
                                     </p>
                                 </v-card-text>
                                 <v-divider></v-divider>

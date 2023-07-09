@@ -37,6 +37,7 @@
                     <li>Ashraf v. State Auto Prop. &amp; Cas. Ins. Co. (W. Va. 2019)</li>
                     <li>Redman v. Fed. Grp., Inc. (W. Va. 2013)</li>
                     <li>State ex rel State Auto Prop. Ins. Co. v. Stucky (W. Va. 2016)</li>
+                    <li>State ex rel Hope Clinic, PLLC v. McGraw, 858 S.E.2d (W. Va. 2021)</li>
                 </ul>
             </v-flex>
             
