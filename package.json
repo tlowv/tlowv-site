@@ -2,11 +2,13 @@
   "name": "vue-tlo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tlowv.github.io/tlowv-site/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "src/gh-pages-deploy.js"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0-rc.1",
@@ -26,6 +28,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "execa": "^6.1.0",
+    "gh-pages": "^5.0.0",
     "material-design-icons-iconfont": "^4.0.4",
     "vue-cli-plugin-vuetify": "^0.4.6",
     "vue-template-compiler": "^2.5.21"
