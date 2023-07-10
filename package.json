@@ -2,7 +2,7 @@
   "name": "vue-tlo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tlowv.github.io/tlowv-site/",
+  "homepage": "https://tlowv.github.io/tlowv-site",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
