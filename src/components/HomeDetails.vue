@@ -14,7 +14,7 @@
         <p class="subheading text-xs-center my-3">
           With decades of legal experience in both State and Federal Court across WV, TLO can address all unique defense needs.
         </p>
-        <a class="text-xs-center" href="/attorneys">Meet out team.</a>
+        <router-link to="/attorneys" class="text-xs-center">Meet out team.</router-link>
       </v-flex>
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-2">mdi-gavel</v-icon>
@@ -22,7 +22,7 @@
         <p class="subheading text-xs-center my-3">
           Whether through trial, motion practice, or appeals, providing exceptional and extraordinary results remains TLO's driving goal.
         </p>
-        <a class="text-xs-center" href="/about">Learn more about TLO.</a>
+        <router-link to="/about" class="text-xs-center">Learn more about TLO.</router-link>
       </v-flex>
       <v-flex xs12 md4 class="home-block">
         <v-icon size="128" color="amber darken-2">mdi-book-open-page-variant</v-icon>
@@ -30,7 +30,7 @@
         <p class="subheading text-xs-center my-3">
           Understanding West Virginia Law, venues, and population shapes the defense strategy used by our attorneys.
         </p>
-        <a class="text-xs-center" href="/practice">See our practice areas.</a>
+        <router-link to="/practice" class="text-xs-center">See our practice areas.</router-link>
       </v-flex>
     </v-layout>
   </v-container>
