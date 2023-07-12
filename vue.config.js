@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/tlowv-site/'
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/tlowv-site/'
+    : '/'
 }
