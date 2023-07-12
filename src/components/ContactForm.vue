@@ -12,7 +12,8 @@
         </v-card-title>
         <div class="pa-3">
             <v-form 
-                action="https://formspree.io/jparsons@taylorlawofficewv.com" 
+                action="https://formspree.io/f/xzblbyqj" 
+                name="contact"
                 method="POST" 
                 ref="form" 
                 v-model="valid" 
@@ -21,6 +22,7 @@
                     v-model="name"
                     :rules="nameRules"
                     label="Name"
+                    name="Name"
                     required
                     id="nameInput"
                 ></v-text-field>
@@ -28,6 +30,7 @@
                     v-model="email"
                     :rules="emailRules"
                     label="E-mail"
+                    name="email"
                     required
                     id="emailInput"
                 ></v-text-field>
@@ -36,6 +39,7 @@
                     v-model="message" 
                     :rules="messageRules"
                     required
+                    name="message"
                     id="inquiryInput"
                 >
                     <div slot="label">Send us a message</div>
