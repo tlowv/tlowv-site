@@ -318,7 +318,7 @@
                 <v-card>
                     <v-card-title class="grey darken-1 justify-end">
                     <h2 class="display-1 mr-3 white--text font-weight-light">
-                        Matt Misdfeldt
+                        Matthew Misfeldt
                     </h2>
                     <v-icon
                         dark

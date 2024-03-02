@@ -24,7 +24,7 @@
           </p>     
         </v-flex>
         <v-flex>
-          <div class="headline mt-3">Dedicateed</div>
+          <div class="headline mt-3">Dedicated</div>
           <p class="mt-3">
             Finally, it is the client that is placed at the forefront of all decisions at Taylor 
             Law Office. From the outset of all cases, our attorneys meet with all clients and 
