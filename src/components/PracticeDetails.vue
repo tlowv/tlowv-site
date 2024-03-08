@@ -1,348 +1,164 @@
 <template>
-    <v-container grid-list-lg>
-        <v-layout 
-            row 
-            nowrap
-            style="max-width: 700px; margin: 0 auto;"
-        >
+    <v-container grid-list-lg style="max-width: 1000px;">
+        <v-layout row nowrap style="max-width: 800px; margin: 0 auto;">
             <v-flex>
                 <div class="headline mt-3">Our Expertise Spans the State.</div>
-                <p class="mt-3">Taylor Law Office primarily focuses on insurance defense. 
-                    Our office has been retained to defend civil litigation in all 55 jurisdictions 
-                    in West Virginia. Taylor Law Office has vast experience in all facets of 
-                    insurance defense in West Virginia.
+                <p class="mt-3">Taylor Law Office stands out in West Virginia for our comprehensive legal services, with
+                    a particular emphasis on insurance defense. We have a strong presence across all 55 counties,
+                    offering
+                    specialized support in civil litigation, workplace accident cases, and personal injury claims. Our
+                    team is adept at navigating complex legal scenarios, from assessing damages in workplace incidents
+                    to representing
+                    individuals affected by negligence.
                 </p>
-                <p class="mt-3">We also have thorough expertise in litigating cases 
-                    that involve workplace accidents. In handling workplace accident cases, 
-                    Taylor Law Office has developed a working relationship with the various 
-                    experts that are required for not only for proving liability and the deliberate 
-                    intent of the employer, but also for developing all aspects of economic and 
-                    non-economic damages.
+                <p class="mt-3">We also offer expert advice in insurance coverage decisions and appeals, leveraging our
+                    significant trial experience to secure favorable outcomes in both state and federal courts. Our
+                    expertise extends to defending premises liability cases and managing thorough investigations for
+                    property-related insurance claims.
                 </p>
-                <p class="mt-3">Also, in unique situations, Taylor Law Office handles 
-                    personal injury cases for individuals wrongly injured in accidents.
+                <p class="mt-3">In essence, Taylor Law Office provides a wide-ranging legal skill set across West
+                    Virginia, ensuring dedicated and knowledgeable representation for all our clients.
                 </p>
             </v-flex>
         </v-layout>
-        <v-layout 
-            row 
-            wrap 
-            justify-center
-        >
-            <v-flex xs12>
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/Jzyg0d7.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">INSURANCE DEFENSE</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+        <v-layout row wrap justify-center>
+            <v-flex xs12 md4>
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                    :class="{ clickable: true }" style="height: 347.5px">
+                    <v-img src="https://i.imgur.com/Jzyg0d7.jpg" height="150px">
+                        <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
+                                style="border: 4px dashed white;"><v-icon medium
+                                    color="white">mdi-arrow-right</v-icon></v-btn></div>
                     </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            The focus for Taylor Law Office has remained on insurance defense. We handle
-                            cases in all 55 counties, have tried multiple cases throughout West Virginia, and have
-                            experience before almost all judges that preside in the Mountain State. The office
-                            has litigated over 2,000 cases. Those insurers TLO has represented include:                            
-                        </p>
-                        <ul>
-                            <li>State Auto Insurance Companies</li>
-                            <li>State Farm Insurance Company</li>
-                            <li>Nationwide</li>
-                            <li>USAA</li>
-                            <li>West Virginia National</li>
-                            <li>Geico</li>
-                            <li>Cincinnati Insurance</li>
-                            <li>Liberty Mutual</li>
-                            <li>Milbank Insurance</li>
-                            <li>Great American Insurance</li>
-                            <li>Markel</li>
-                            <li>National Insurance</li>
-                        </ul>
+                    <v-card-title primary-title class="pt-2">
+                        <h2 style="line-height: 1.25;">INSURANCE DEFENSE</h2>
+                        <div style="width: 100%; height: 0;"></div>
+                        <p style="line-height: 1.25;">
+                            At Taylor Law Office, insurance defense is our main focus. We are dedicated to providing
+                            robust support and expert representation in all insurance-related legal disputes.
                         </p>
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex 
-                xs12 
-                md6
-            >
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/ggQpd3Q.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">WORKPLACE ACCIDENTS</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+
+            <v-flex xs12 md4>
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                    :class="{ clickable: true }" style="height: 347.5px">
+                    <v-img src="https://i.imgur.com/ggQpd3Q.jpg" height="150px">
+                        <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
+                                style="border: 4px dashed white;"><v-icon medium
+                                    color="white">mdi-arrow-right</v-icon></v-btn></div>
                     </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            In West Virginia, as is the case throughout the United States, 
-                            employers are expected to provide an employee with a safe working 
-                            environment. When that standard is not satisfied, employees 
-                            unfortunately can be wrongfully injured. While most work-place 
-                            accidents are rightly handled by the West Virginia workers compensation 
-                            system, there are instances when additional claims against the employer are 
-                            justified.
-                        </p>
-                        <p class="my-2">
-                            Taylor Law Office understands the complex nature of filing such a claim 
-                            so as to pierce the statutory immunities in place to protect an employer 
-                            who has deliberately disregarded specific workplace safety standards 
-                            which causes injury to an employee.
-                        </p>
-                        <p class="my-2">
-                            Taylor Law Office has vast experience with the various experts that are 
-                            required for not only for proving liability and the deliberate intent 
-                            of the employer, but also for developing all aspects of economic and 
-                            non-economic damages.
+                    <v-card-title primary-title class="pt-2">
+                        <h2 style="line-height: 1.25;">WORK-RELATED INJURY</h2>
+                        <div style="width: 100%; height: 0;"></div>
+                        <p style="line-height: 1.25;">
+                            Navigating work-related injuries is easier with the right legal support. Rely on experienced
+                            guidance to ensure your rights and claims are effectively managed and protected.
                         </p>
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex 
-                xs12 
-                md6
-            >
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/ztgB3Iw.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">PERSONAL INJURY</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+
+            <v-flex xs12 md4>
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                    :class="{ clickable: true }" style="height: 347.5px">
+                    <v-img src="https://i.imgur.com/ztgB3Iw.jpg" height="150px">
+                        <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
+                                style="border: 4px dashed white;"><v-icon medium
+                                    color="white">mdi-arrow-right</v-icon></v-btn></div>
                     </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            In unique situations, Taylor Law Office handles personal injury cases 
-                            for individuals wrongfully injured in accidents. While Taylor Law Office 
-                            typically handles cases for defendants, insurers, and corporate clients, 
-                            legitimate personal injury cases are also accepted. After determining the 
-                            merits of a case, once retained by an injured claimant, Taylor Law Office's 
-                            attorneys aggressively move cases through all phases of litigation, and when 
-                            necessary, trial.
-                        </p>
-                        <p class="my-2">
-                            Taylor Law Office has represented injured parties in cases involving 
-                            serious auto accidents, complex products liability questions, and dangerous 
-                            acts of negligence and misconduct. 
-                            
-                        </p>
-                        <p class="my-2">Moreover, Taylor Law Office thoroughly 
-                            understands insurance standards and legal requirements, and uses that knowledge 
-                            and skill to represent seriously injured individuals.
-                        </p>
-                        
-                    </v-card-title>
-                </v-card>
-            </v-flex>
-            
-            
-            
-            
-            
-            <v-flex 
-                xs12 
-                md6
-            >
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/k8tbS0F.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">COVERAGE DECISIONS/APPEALS</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
-                    </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            Taylor Law Office assist insurers in West Virginia with complex coverage matters requiring
-                            intense analysis and counseled decisions.  In multiple instances, Taylor Law Office has secured
-                            favorable results at the circuit court level.  However, when needed Taylor Law Office has handled many cases on appeal before the West Virginia
-                            Supreme Court of Appeals.
+                    <v-card-title primary-title class="pt-2">
+                        <h2 style="line-height: 1.25;">PERSONAL INJURY</h2>
+                        <div style="width: 100%; height: 0;"></div>
+                        <p style="line-height: 1.25;">
+                            some text
                         </p>
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex 
-                xs12 
-                md6
-            >
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/XT3StNH.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">TRIAL EXPERIENCE</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+
+            <v-flex xs12 md4>
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                    :class="{ clickable: true }" style="height: 347.5px">
+                    <v-img src="https://i.imgur.com/k8tbS0F.jpg" height="150px">
+                        <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
+                                style="border: 4px dashed white;"><v-icon medium
+                                    color="white">mdi-arrow-right</v-icon></v-btn></div>
                     </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            Taylor Law Office has conducted trials in multiple state venuees and also in various federal courts
-                            in West Virginia.  Averaging approximately two trials a year, Taylor Law Office has extensive experience presenting cases,
-                            arguing for our clients, and most importantly, pursuading through strong advocacy to convince jurors.
-                        </p>                        
-                    </v-card-title>
-                </v-card>
-            </v-flex>
-            
-            
-            
-            
-            
-            <v-flex 
-                xs12 
-                md6
-            >
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/LPgWy3v.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">PREMISES LIABILITY</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
-                    </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            While the law for premises liability claims are governed by the open, obvious, and reasonable
-                            apparent standard, claims against homeownders and commercial enterprises routinely are defended by
-                            Taylor Law Office.  Additionally, Taylor Law Office has extensive experience with dog bite defense.
+                    <v-card-title primary-title class="pt-2">
+                        <h2 style="line-height: 1.25;">INSURANCE COVERAGE - DECISIONS & APPEALS</h2>
+                        <div style="width: 100%; height: 0;"></div>
+                        <p style="line-height: 1.25;">
+                            some text
                         </p>
                     </v-card-title>
                 </v-card>
             </v-flex>
-            <v-flex 
-                xs12 
-                md6
-            >
-                <v-card elevation=10>
-                    <v-img 
-                        src="https://i.imgur.com/GYzYkjn.jpg" 
-                        height="400px"
-                    >
-                        <v-container 
-                            fill-height 
-                            fluid
-                        >
-                            <v-layout fill-height>
-                                <v-flex 
-                                    xs12 
-                                    align-end 
-                                    flexbox
-                                >
-                                    <span class="outline-text headline white--text">PROPERTY COVERAGE/INVESTIGATIONS</span>
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+
+            <v-flex xs12 md4>
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                    :class="{ clickable: true }" style="height: 347.5px">
+                    <v-img src="https://i.imgur.com/LPgWy3v.jpg" height="150px">
+                        <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
+                                style="border: 4px dashed white;"><v-icon medium
+                                    color="white">mdi-arrow-right</v-icon></v-btn></div>
                     </v-img>
-                    <v-card-title primary-title>
-                        <p class="my-2">
-                            Whether it be losses causeed by storms, water, or fire, Taylor Law Office regularly assists carriers in
-                            West Virginia with the investigation process so an informed decision can be reached regarding coverage.  
-                            Taylor Law Office has assisted with insurers that require examinations under oath be performed and evidence
-                            gathered from local authorities for proper handling of claims pursuant to the West Virginia
-                            insurance regulations.
+                    <v-card-title primary-title class="pt-2">
+                        <h2 style="line-height: 1.25;">PREMISES LIABILITY & DOG BITE DEFENSE</h2>
+                        <div style="width: 100%; height: 0;"></div>
+                        <p style="line-height: 1.25;">
+                            some text
                         </p>
-                        
+                    </v-card-title>
+                </v-card>
+            </v-flex>
+
+            <v-flex xs12 md4>
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                    :class="{ clickable: true }" style="height: 347.5px">
+                    <v-img src="https://i.imgur.com/GYzYkjn.jpg" height="150px">
+                        <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
+                                style="border: 4px dashed white;"><v-icon medium
+                                    color="white">mdi-arrow-right</v-icon></v-btn></div>
+                    </v-img>
+                    <v-card-title primary-title class="pt-2">
+                        <h2 style="line-height: 1.25;">PROPERTY DAMAGE - CLAIMS & INVESTIGATIONS</h2>
+                        <div style="width: 100%; height: 0;"></div>
+                        <p style="line-height: 1.25;">
+                            some text
+                        </p>
                     </v-card-title>
                 </v-card>
             </v-flex>
         </v-layout>
-        <!--
-        <v-layout row nowrap style="max-width: 700px; margin: 0 auto;">
-            <v-flex>
-                <div class="headline mt-3">Trusted by all of our clients</div>
-                <p class="mt-3">We are routinely retained to assist with multi-million-dollar
-                    claims involving death, serious injury, and extreme damages. Taylor Law Office is the
-                    referred firm used by the largest convenience store franchise in West Virginia (Go-
-                    Mart) and has handled dozens of serious cases prior to and after suit is filed. In
-                    addition, we serve as coverage counsel and coverage cases continually make up a
-                    sizeable amount of work for the office. Our office also handles property damage claims
-                    (water, fire, wind, etc.) against various insurers and we conduct multiple EUOs every
-                    year.
-                </p>
-            </v-flex>
-        </v-layout>
-        -->
     </v-container>
 </template>
 
 <script>
 export default {
-    name: 'PracticeDetails'
+    name: 'PracticeDetails',
+
+    methods: {
+        goToLink(url) {
+            window.location.href = url;
+        }
+    }
 };
 </script>
 
 <style scoped>
+.custom-card-hover:hover p {
+    color: #CFD8DC;
+}
+
+
+.custom-card-hover:hover {
+    color: white;
+    background: #546E7A;
+}
+
+.clickable {
+    cursor: pointer;
+}
 </style>
