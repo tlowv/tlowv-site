@@ -14,8 +14,8 @@
                     by the largest convenience store franchise in West Virginia (Go Mart) and has 
                     handled dozens of serious cases prior to and after suit is filed. In
                     addition, we serve as coverage counsel and coverage cases continually make up a
-                    sizeable amount of work for the office. Our office also handles property damage claims
-                    (water, fire, wind, etc.) against various insurers and we conduct multiple examinsations under oath
+                    sizable amount of work for the office. Our office also handles property damage claims
+                    (water, fire, wind, etc.) against various insurers and we conduct multiple examinations under oath
                     every year. 
                 </p>     
             </v-flex>

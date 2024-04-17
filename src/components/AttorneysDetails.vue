@@ -14,7 +14,7 @@
                     in all State and Federal jurisdictions throughout West Virginia. 
                     While these cases range in size and complexity, they are all 
                     approached with the same intense focus for providing a superior 
-                    product. The relative small size of Taylor Law Office provides 
+                    product. The relatively small size of Taylor Law Office provides 
                     inherent advantages to insurers concerned with the mechanics for how 
                     cases are being handled. 
                 </p>
@@ -32,7 +32,7 @@
           <v-timeline-item color="indigo darken-1">
               <span slot="opposite">
                   <strong>2008 </strong>
-                  Trevor Taylor Opens Taylor Law Office
+                  Trevor Taylor opens Taylor Law Office
               </span>
 
               <v-card>
@@ -129,7 +129,7 @@
           <v-timeline-item color="amber lighten-1">
               <span slot="opposite">
                   <strong>2012 </strong>
-                  Chris Denson Comes Aboard
+                  Chris Denson comes aboard
               </span>
               <v-card>
                   <v-card-title class="amber lighten-1">
@@ -238,7 +238,7 @@
           <v-timeline-item color="red lighten-1">
               <span slot="opposite">
                   <strong>2013 </strong> 
-                  Tiffany Cropp Joins TLO
+                  Tiffany Cropp joins TLO
               </span>
               <v-card>
                   <v-card-title class="red lighten-1 justify-end">
@@ -313,7 +313,7 @@
             <v-timeline-item color="grey darken-1">
                 <span slot="opposite">
                     <strong>2019 </strong> 
-                    Matthew Misdfeldt Joins TLO
+                    Matthew Misfeldt joins TLO
                 </span>
                 <v-card>
                     <v-card-title class="grey darken-1 justify-end">
@@ -384,7 +384,7 @@
             <v-timeline-item color="green lighten-1">
                 <span slot="opposite">
                     <strong>2020 </strong>
-                    Hamilton D. Skeens Joins TLO
+                    Hamilton D. Skeens joins TLO
                 </span>
                 <v-card>
                     <v-card-title class="green lighten-1 justify-end">
@@ -403,7 +403,7 @@
                             Concentrates his practice in areas of defense litigation; with particular
                             emphasis on the defense of complex commercial litigation involving
                             commercial trucking, construction defect, products liability, premises liability
-                            and lap slip cases
+                            and slip and fall cases
                         </v-layout>
                     </v-container>
                     <v-card-actions>
@@ -774,7 +774,7 @@
       <v-container grid-list-lg style="max-width: 700px;">
         <v-flex>
           <div class="headline mt-3">
-            Experienced, Knowledgable Attorneys Are Ready to Assist You Today
+            Experienced, Knowledgeable Attorneys Are Ready to Assist You Today
           </div>
           <p class="mt-3">
             The frustration of paying associates to learn how to practice 
