@@ -38,6 +38,12 @@ export default new Router({
             component: () => import('./views/Contact.vue'),
             meta: { title: 'Contact Us - Taylor Law Office' }
         },
+        {
+            path: '/insurance-defense',
+            name: 'insurance-defense',
+            component: () => import('./views/InsuranceDefense.vue'),
+            meta: { title: 'Insurance Defense - Taylor Law Office' }
+        }
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {

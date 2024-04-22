@@ -23,7 +23,7 @@
         </v-layout>
         <v-layout row wrap justify-center>
             <v-flex xs12 md4>
-                <v-card class="custom-card-hover elevation-10" @click="goToLink('/attorneys')"
+                <v-card class="custom-card-hover elevation-10" @click="goToLink('/insurance-defense')"
                     :class="{ clickable: true }" style="height: 347.5px">
                     <v-img src="https://i.imgur.com/Jzyg0d7.jpg" height="150px">
                         <div style="margin-top: 12px;"><v-btn icon fab outlined right absolute
