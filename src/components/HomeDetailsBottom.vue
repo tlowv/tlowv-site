@@ -7,7 +7,7 @@
             cases in all 55 counties, have tried cases throughout West Virginia, and have
             experience before almost all judges that preside in the Mountain State. 
             Since the office opened in 2007, we have litigated thousands of cases. These 
-            clients we haev represented include:
+            clients we have represented include:
           </p>
           <ul>
             <li>State Auto Insurance Companies</li>

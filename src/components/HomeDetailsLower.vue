@@ -10,17 +10,16 @@
             investigating and thoroughly developing all viable arguments in our client's favor. 
             Through discovery, whether written or depositions, our attorneys pursue all angles to 
             defend our clients so when a case goes to trial, our attorneys are prepared to make 
-            the absolute strongest arguments and achieeve exceptional results.
+            the absolute strongest arguments and achieve exceptional results.
           </p>
         </v-flex>
         <v-flex>
           <div class="headline mt-3">Rate Conscious</div>
           <p class="mt-3">
             In addition to quality service, Taylor Law Office is dedicated to providing such 
-            representation at a reasonable price. Not only are our rates 
-            reduced as compared to other firms, andy many of the costs and expenses associated with 
-            legal representation are not forced upon the client. Among other expenses, this includes 
-            costs for electronic legal research.
+            representation at a reasonable price. Our rates are reduced compared to other firms, and 
+            many of the costs and expenses associated with legal representation are not forced upon 
+            the client. Among other expenses, this includes costs for electronic legal research.
           </p>     
         </v-flex>
         <v-flex>
