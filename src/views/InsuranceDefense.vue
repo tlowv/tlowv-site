@@ -11,7 +11,7 @@ import InsuranceDefenseDetails from '@/components/InsuranceDefenseDetails';
 
 export default {
     name: 'Insurance Defense',
-    title: 'Practice Areas - Insurance Defense | TLO',
+    title: 'Insurance Defense | TLO',
     components: {
         InsuranceDefenseHeader,
         InsuranceDefenseDetails

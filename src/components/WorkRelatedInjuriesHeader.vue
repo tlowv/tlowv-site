@@ -1,7 +1,8 @@
 <template>
-    <v-container fluid fill-height class="insurance-defense-header" style="max-height: 60vh;">
+    <v-container fluid fill-height class="work-related-injuries-header" style="max-height: 60vh;">
         <v-layout justify-center align-center column pa-5>
-            <div class="outline-text display-3 white--text font-weight-black text-xs-center mb-3">Insurance Defense</div>
+            <div class="outline-text display-3 white--text font-weight-black text-xs-center mb-3">Work-Related Injuries
+            </div>
             <v-btn large outline class="mt-5 white--text" @click="$vuetify.goTo('#bottom')">
                 <v-icon color="white">mdi-chevron-down</v-icon>
                 Get Help Today!
@@ -13,16 +14,16 @@
 
 <script>
 export default {
-    name: 'InsuranceDefenseHeader'
+    name: 'WorkRelatedInjuriesHeader'
 };
 </script>
 
 <style scoped>
-.insurance-defense-header {
-    background: url('https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-position: center 50%;
+.work-related-injuries-header {
+    background: url('https://img.freepik.com/free-photo/accident-warehouse-man-floor_1303-16644.jpg?t=st=1713814326~exp=1713817926~hmac=5c19669f436e6e05bd1a437cb1d32f644b4c59ad29db4405f3b1fc918408fc3a&w=1380');
+    background-position: center 55%;
     background-size: cover;
-   
+
 }
 
 hr {

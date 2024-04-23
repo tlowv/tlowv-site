@@ -43,6 +43,36 @@ export default new Router({
             name: 'insurance-defense',
             component: () => import('./views/InsuranceDefense.vue'),
             meta: { title: 'Insurance Defense - Taylor Law Office' }
+        },
+        {
+            path: '/work-related-injuries',
+            name: 'work-related-injuries',
+            component: () => import('./views/WorkRelatedInjuries.vue'),
+            meta: { title: 'Work-Related Injuries - Taylor Law Office' }
+        },
+        {
+            path: '/personal-injuries',
+            name: 'personal-injuries',
+            component: () => import('./views/PersonalInjuries.vue'),
+            meta: { title: 'Personal Injuries - Taylor Law Office' }
+        },
+        {
+            path: '/coverage-decisions',
+            name: 'coverage-decisions',
+            component: () => import('./views/CoverageDecisions.vue'),
+            meta: { title: 'Coverage Decisions and Appeals - Taylor Law Office' }
+        },
+        {
+            path: '/premises-liability',
+            name: 'premises-liability',
+            component: () => import('./views/PremisesLiability.vue'),
+            meta: { title: 'Premises Liability and Dog Bite Defense - Taylor Law Office' }
+        },
+        {
+            path: '/property-damage',
+            name: 'property-damage',
+            component: () => import('./views/PropertyDamage.vue'),
+            meta: { title: 'Property Damage Claims and Investigations - Taylor Law Office' }
         }
     ],
     scrollBehavior(to, from, savedPosition) {

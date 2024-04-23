@@ -89,7 +89,7 @@
                         upholding principles of justice and fairness.
                     </p>
                 </v-flex>
-                <v-flex xs12 class="form-container mt-3"><contact-form></contact-form></v-flex>
+                <v-flex xs12 class="form-container mt-3" id="bottom"><contact-form></contact-form></v-flex>
             </v-layout>
         </v-container>
     </div>
