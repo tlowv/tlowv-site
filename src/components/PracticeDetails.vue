@@ -43,6 +43,7 @@
 
 
 <script>
+
 export default {
     name: 'PracticeDetails',
 
@@ -91,7 +92,7 @@ export default {
 
     methods: {
         goToLink(url) {
-            window.location.href = url;
+            this.$router.push(url);
         }
     }
 };
