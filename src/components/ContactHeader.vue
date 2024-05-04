@@ -19,7 +19,7 @@ export default {
 .contact-header {
     background: url('https://i.imgur.com/gPwBEYR.jpg');
     background-size: cover;
-    background-position: 90% 20%;
-    
+    background-position: center 15%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 </style>

@@ -3,6 +3,7 @@
     fluid
     fill-height
     class="midpage-banner mt-5"
+    
   >
     <v-layout column py-0 class="hidden-sm-and-up">
       <h1 class="outline-text white--text font-weight-black mb-3">Insurance defense and representing insureds is our focus</h1>

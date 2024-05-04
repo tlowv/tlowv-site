@@ -2,7 +2,7 @@
     <v-card>
         <v-card-title 
             primary-title 
-            class="grey lighten-2"
+            class="blue-grey lighten-4"
         >
             <div>
                 <h3 class="headline mb-0">Drop us a line</h3>

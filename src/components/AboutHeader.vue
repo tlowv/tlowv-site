@@ -20,7 +20,7 @@ export default {
     background: url('https://i.imgur.com/8mnGzJm.jpg');
     background-position: center 10%;
     background-size: cover;
-   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 hr {

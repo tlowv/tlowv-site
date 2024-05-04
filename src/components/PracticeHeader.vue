@@ -27,10 +27,12 @@ export default {
 
 <style scoped>
 .practice-header {
-    background: url('https://i.imgur.com/XRVcMYx.jpg');
+    background: url('https://i.imgur.com/CSQPPSr.jpg');
     background-size: cover;
+    background-position: center 30%;
     width: 100%;
     height: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 hr {

@@ -20,10 +20,10 @@ export default {
 
 <style scoped>
 .work-related-injuries-header {
-    background: url('https://img.freepik.com/free-photo/accident-warehouse-man-floor_1303-16644.jpg?t=st=1713814326~exp=1713817926~hmac=5c19669f436e6e05bd1a437cb1d32f644b4c59ad29db4405f3b1fc918408fc3a&w=1380');
+    background: url('https://i.imgur.com/sgmJX6U.jpg');
     background-position: center 55%;
     background-size: cover;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 hr {

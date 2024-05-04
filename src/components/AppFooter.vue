@@ -45,7 +45,7 @@
                 white--text
                 xs12
             >
-                &copy;2023 - 
+                &copy;2024 - 
                 <strong>Taylor Law Office</strong>
             </v-flex>
             <v-flex blue-grey

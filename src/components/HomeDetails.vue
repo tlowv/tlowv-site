@@ -1,6 +1,6 @@
 <template>
   <v-container 
-    fluid 
+    fluid
   >
     <v-flex id="below-fold"></v-flex>
     <v-layout 

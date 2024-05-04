@@ -1,7 +1,7 @@
 <template>
     <v-container fluid fill-height class="property-damage-header" style="max-height: 60vh;">
         <v-layout justify-center align-center column pa-5>
-            <div class="outline-text display-3 white--text font-weight-black text-xs-center mb-3">Property Damage - Claims & Investigations</div>
+            <div class="outline-text display-3 white--text font-weight-black text-xs-center mb-3">Property Damage - Investigations & Assistance</div>
             <v-btn large outline class="mt-5 white--text" @click="$vuetify.goTo('#bottom')">
                 <v-icon color="white">mdi-chevron-down</v-icon>
                 Get Help Today!
@@ -19,10 +19,10 @@ export default {
 
 <style scoped>
 .property-damage-header {
-    background: url('https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background: url('https://i.imgur.com/AoyZG1O.jpg');
     background-position: center 50%;
     background-size: cover;
-   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 hr {

@@ -19,10 +19,10 @@ export default {
 
 <style scoped>
 .coverage-decisions-header {
-    background: url('https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-position: center 50%;
+    background: url('https://i.imgur.com/94i7Zti.jpg');
+    background-position: center 70%;
     background-size: cover;
-   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 hr {

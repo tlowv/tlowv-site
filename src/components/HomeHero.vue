@@ -1,5 +1,5 @@
 <template>
-    <span>
+    <span style="min-height: 800px">
         <div id="top"></div>
         <v-container 
             fluid 
@@ -18,9 +18,10 @@
                     alt="taylor law office" 
                     width="100%" 
                     class="tlo-hero"
-                >
+                ><div>
                 <h2 class="outline-text hidden-sm-and-up white--text">Experienced, Exceptional, and Dedicated Attorneys Serving All of West Virginia</h2>
                 <h2 class="outline-text display-3 font-weight-medium hidden-xs-only text-sm-center white--text">Experienced, Exceptional, and Dedicated Attorneys Serving All of West Virginia</h2>
+            </div>
                 <v-btn 
                     large 
                     outline 
@@ -61,4 +62,5 @@ export default {
     position: absolute;
     top: -100px;
 }
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <v-app>
+    <v-app style="background-color: #ECEFF1; color: #263238">
         <app-navigation></app-navigation>
         <v-content transition="slide-y-transition">
             <router-view></router-view>
@@ -22,8 +22,11 @@ export default {
 </script>
 
 <style>
+html, body {
+  background-color: #ECEFF1;
+}
+
 p {
-  color: #333;
   font-size: 1.25em;
   line-height: 1.5;
 }
